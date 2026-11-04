@@ -583,6 +583,204 @@
       "status": "Pending",
       "createdAt": "2026-11-04T12:51:42.403Z",
       "id": 2
+    },
+    {
+      "userId": 3,
+      "customer": {
+        "firstName": "Test",
+        "lastName": "User",
+        "address": "Molla bari road, toll plaza.",
+        "mobile": "01800000000",
+        "email": "test@example.com",
+        "city": "Rupatoli",
+        "zone": "Dhaka",
+        "comment": ""
+      },
+      "delivery": {
+        "method": "express",
+        "fee": 120
+      },
+      "payment": "online",
+      "transaction": {
+        "channel": "card",
+        "provider": "visa",
+        "providerName": "Visa",
+        "transactionId": "LVMW2F01HS6W8U",
+        "account": "•••• 4242",
+        "paidAt": "2026-11-04T17:52:53.392Z"
+      },
+      "items": [
+        {
+          "productId": 10,
+          "name": "HP Victus 15-FB3093DX",
+          "price": 105500,
+          "quantity": 1,
+          "image": "/images/products/hp-victus-15-fb3093dx.png"
+        },
+        {
+          "productId": 1,
+          "name": "Acer Aspire 7 A715-79G",
+          "price": 125000,
+          "quantity": 1,
+          "image": "/images/products/acer-aspire-7-a715-79g.png"
+        }
+      ],
+      "totals": {
+        "subtotal": 243500,
+        "discount": 13000,
+        "couponCode": null,
+        "couponDiscount": 0,
+        "deliveryFee": 120,
+        "total": 230620
+      },
+      "status": "Pending",
+      "createdAt": "2026-11-04T17:52:54.099Z",
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "customer": {
+        "firstName": "Test",
+        "lastName": "User",
+        "address": "Molla bari road, toll plaza.",
+        "mobile": "01800000000",
+        "email": "test@example.com",
+        "city": "Rupatoli",
+        "zone": "Dhaka",
+        "comment": ""
+      },
+      "delivery": {
+        "method": "express",
+        "fee": 120
+      },
+      "payment": "online",
+      "transaction": {
+        "channel": "mobile",
+        "provider": "bkash",
+        "providerName": "bKash",
+        "transactionId": "LVMW2FO7E1MTHV",
+        "account": "017•••••678",
+        "paidAt": "2026-11-04T18:11:40.777Z"
+      },
+      "items": [
+        {
+          "productId": 3,
+          "name": "Microsoft Surface Laptop 4",
+          "price": 57500,
+          "quantity": 1,
+          "image": "/images/products/microsoft-surface-laptop-4.png"
+        }
+      ],
+      "totals": {
+        "subtotal": 63500,
+        "discount": 6000,
+        "couponCode": null,
+        "couponDiscount": 0,
+        "deliveryFee": 120,
+        "total": 57620
+      },
+      "status": "Pending",
+      "createdAt": "2026-11-04T18:11:41.485Z",
+      "id": 4
+    },
+    {
+      "userId": 3,
+      "customer": {
+        "firstName": "Test",
+        "lastName": "User",
+        "address": "Molla bari road, toll plaza.",
+        "mobile": "01800000000",
+        "email": "test@example.com",
+        "city": "Rupatoli",
+        "zone": "Dhaka",
+        "comment": ""
+      },
+      "delivery": {
+        "method": "express",
+        "fee": 120
+      },
+      "payment": "online",
+      "transaction": {
+        "channel": "card",
+        "provider": "visa",
+        "providerName": "Visa",
+        "transactionId": "LVMW2IMWTQ0AY5",
+        "account": "•••• 4242",
+        "paidAt": "2026-11-04T19:34:39.278Z"
+      },
+      "items": [
+        {
+          "productId": 5,
+          "name": "HP EliteBook 830 G9",
+          "price": 60500,
+          "quantity": 1,
+          "image": "/images/products/hp-elitebook-830-g9.png"
+        },
+        {
+          "productId": 1,
+          "name": "Acer Aspire 7 A715-79G",
+          "price": 125000,
+          "quantity": 2,
+          "image": "/images/products/acer-aspire-7-a715-79g.png"
+        }
+      ],
+      "totals": {
+        "subtotal": 321500,
+        "discount": 11000,
+        "couponCode": null,
+        "couponDiscount": 0,
+        "deliveryFee": 120,
+        "total": 310620
+      },
+      "status": "Pending",
+      "createdAt": "2026-11-04T19:34:39.981Z",
+      "id": 5
+    },
+    {
+      "userId": 3,
+      "customer": {
+        "firstName": "Test",
+        "lastName": "User",
+        "address": "Molla bari road, toll plaza.",
+        "mobile": "01800000000",
+        "email": "test@example.com",
+        "city": "Rupatoli",
+        "zone": "Dhaka",
+        "comment": ""
+      },
+      "delivery": {
+        "method": "express",
+        "fee": 120
+      },
+      "payment": "online",
+      "transaction": {
+        "channel": "mobile",
+        "provider": "bkash",
+        "providerName": "bKash",
+        "transactionId": "LVMW2IPV4BR32V",
+        "account": "018*****680",
+        "paidAt": "2026-11-04T19:36:57.035Z"
+      },
+      "items": [
+        {
+          "productId": 1,
+          "name": "Acer Aspire 7 A715-79G",
+          "price": 125000,
+          "quantity": 1,
+          "image": "/images/products/acer-aspire-7-a715-79g.png"
+        }
+      ],
+      "totals": {
+        "subtotal": 128000,
+        "discount": 3000,
+        "couponCode": null,
+        "couponDiscount": 0,
+        "deliveryFee": 120,
+        "total": 125120
+      },
+      "status": "Pending",
+      "createdAt": "2026-11-04T19:36:57.741Z",
+      "id": 6
     }
   ],
   "users": [
@@ -621,6 +819,30 @@
         "postCode": "1230",
         "isDefault": true
       }
+    },
+    {
+      "email": "licisu@mailinator.com",
+      "passwordHash": "8511187fd94cae790033bb0add354982d331efa194f8ef78a048829909096bd8",
+      "salt": "7fe94e21b6851b68b1c2cd218b860536",
+      "verified": true,
+      "createdAt": "2026-11-04T15:19:05.348Z",
+      "id": 4
+    },
+    {
+      "email": "lusilikori@mailinator.com",
+      "passwordHash": "5ea89f31da7eb873ce1889f3deb5860404400e30d5acdb1e25884a36d599ee1e",
+      "salt": "9e203a73405cd60ba8f136b6cf1f1e4e",
+      "verified": false,
+      "createdAt": "2026-11-04T15:22:06.194Z",
+      "id": 5
+    },
+    {
+      "email": "nokemixeky@mailinator.com",
+      "passwordHash": "401c8876b30cd9b63f7b6187346436c4b5b5439212f0ec75b62ccf6374074154",
+      "salt": "5dff01acc4edf48d217cbd8a99f6723a",
+      "verified": true,
+      "createdAt": "2026-11-04T15:26:55.616Z",
+      "id": 6
     }
   ],
   "passwordResets": [
@@ -662,6 +884,35 @@
       "used": true,
       "devCode": "606148",
       "id": 3
+    },
+    {
+      "userId": 4,
+      "salt": "c775f4a377d90f53e01e0b84e28697bf",
+      "codeHash": "735793300c7fd86effcf16e0f18f4dc9e496c57c0e00225209e810442d0d5e7c",
+      "expiresAt": "2026-11-04T15:29:05.828Z",
+      "attempts": 0,
+      "used": true,
+      "devCode": "825427",
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "salt": "a5f269691f3b948f941724a1d319ef84",
+      "codeHash": "385bc7142b087973ef5b1a93ab1c9e96e0e36b1c5f54e8662feeed9033c227c7",
+      "expiresAt": "2026-11-04T15:32:06.452Z",
+      "attempts": 5,
+      "used": false,
+      "devCode": "769957",
+      "id": 5
+    },
+    {
+      "userId": 6,
+      "salt": "d9b86e869e3c6e671a47756fb101d423",
+      "codeHash": "51ed92fe5651ae3b5369a89c7eeb723d9fe4ee65a6c8e64890681c2c4b9d5b1d",
+      "expiresAt": "2026-11-04T15:36:55.712Z",
+      "attempts": 0,
+      "used": true,
+      "id": 6
     }
   ],
   "videos": [
