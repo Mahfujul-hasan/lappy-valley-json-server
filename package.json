@@ -1,0 +1,14 @@
+{
+  "name": "lappy-valley-json-server",
+  "version": "1.0.0",
+  "description": "json-server backend for the Lappy Valley landing page",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "json-server": "0.17.4"
+  }
+}

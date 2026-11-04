@@ -1,0 +1,697 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Acer Aspire 7 A715-79G",
+      "shortName": "Acer Aspire 7",
+      "brand": "Acer",
+      "processor": "Core 5",
+      "displaySize": 15.6,
+      "displayType": "IPS",
+      "ram": 16,
+      "ssd": 512,
+      "hdd": 0,
+      "graphics": "NVIDIA RTX 3050",
+      "features": [
+        "Backlit Keyboard"
+      ],
+      "availability": "in-stock",
+      "spec": "Core 5 210H · RTX 3050 4GB · 16GB / 512GB · 15.6\" FHD Gaming",
+      "specs": [
+        "Core 5 210H",
+        "RTX 3050 4GB",
+        "16GB RAM · 512GB SSD",
+        "15.6\" FHD"
+      ],
+      "condition": "Brand New",
+      "price": 125000,
+      "oldPrice": 128000,
+      "image": "/images/products/acer-aspire-7-a715-79g.png",
+      "isNewArrival": true,
+      "isStudentBudget": true,
+      "createdAt": "2026-11-03T10:00:00.000Z",
+      "isGaming": true,
+      "hardware": {
+        "cpu": "Core 5 210H",
+        "gpu": "RTX 3050 · 4GB",
+        "ram": "16GB",
+        "ssd": "512GB"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Lenovo ThinkPad X1 Carbon",
+      "shortName": "ThinkPad X1 Carbon",
+      "brand": "Lenovo",
+      "processor": "Core i5",
+      "processorGeneration": "11th Gen",
+      "displaySize": 14,
+      "displayType": "IPS",
+      "ram": 16,
+      "ssd": 512,
+      "hdd": 0,
+      "graphics": "Integrated",
+      "features": [
+        "Backlit Keyboard",
+        "Fingerprint Reader"
+      ],
+      "availability": "in-stock",
+      "spec": "4K · Core i5 11th Gen · 16GB / 512GB",
+      "specs": [
+        "4K display",
+        "Core i5 11th Gen",
+        "16GB RAM",
+        "512GB SSD"
+      ],
+      "condition": "Pre-Owned AAA+",
+      "price": 68500,
+      "oldPrice": 75500,
+      "image": "/images/products/lenovo-thinkpad-x1-carbon.png",
+      "isNewArrival": true,
+      "isStudentBudget": false,
+      "createdAt": "2026-11-02T10:00:00.000Z",
+      "isGaming": false
+    },
+    {
+      "id": 3,
+      "name": "Microsoft Surface Laptop 4",
+      "shortName": "Surface Laptop 4",
+      "brand": "Microsoft",
+      "processor": "Core i5",
+      "processorGeneration": "11th Gen",
+      "displaySize": 13.5,
+      "displayType": "Touchscreen",
+      "ram": 16,
+      "ssd": 512,
+      "hdd": 0,
+      "graphics": "Integrated",
+      "features": [
+        "Touchscreen",
+        "Backlit Keyboard"
+      ],
+      "availability": "in-stock",
+      "spec": "Core i5-1145G7 · 16GB / 512GB",
+      "specs": [
+        "Core i5-1145G7",
+        "16GB RAM",
+        "512GB SSD",
+        "Pre-owned AAA+ grade"
+      ],
+      "condition": "Pre-Owned AAA+",
+      "price": 57500,
+      "oldPrice": 63500,
+      "image": "/images/products/microsoft-surface-laptop-4.png",
+      "isNewArrival": true,
+      "isStudentBudget": true,
+      "createdAt": "2026-11-01T10:00:00.000Z",
+      "isGaming": false
+    },
+    {
+      "id": 4,
+      "name": "Lenovo ThinkPad X13 Yoga",
+      "shortName": "ThinkPad X13 Yoga",
+      "brand": "Lenovo",
+      "processor": "Core i5",
+      "processorGeneration": "10th Gen",
+      "displaySize": 13.3,
+      "displayType": "Touchscreen",
+      "ram": 8,
+      "ssd": 256,
+      "hdd": 0,
+      "graphics": "Integrated",
+      "features": [
+        "2-in-1",
+        "Touchscreen",
+        "Backlit Keyboard"
+      ],
+      "availability": "in-stock",
+      "spec": "Core i5 10th Gen · 8GB / 256GB",
+      "specs": [
+        "Core i5 10th Gen",
+        "8GB RAM",
+        "256GB SSD",
+        "2-in-1 Yoga"
+      ],
+      "condition": "Pre-Owned AAA+",
+      "price": 40500,
+      "oldPrice": 45500,
+      "image": "/images/products/lenovo-thinkpad-x13-yoga.png",
+      "isNewArrival": true,
+      "isStudentBudget": false,
+      "createdAt": "2026-10-31T10:00:00.000Z",
+      "isGaming": false
+    },
+    {
+      "id": 5,
+      "name": "HP EliteBook 830 G9",
+      "shortName": "EliteBook 830 G9",
+      "brand": "HP",
+      "processor": "Core i5",
+      "processorGeneration": "12th Gen",
+      "displaySize": 13.3,
+      "displayType": "IPS",
+      "ram": 16,
+      "ssd": 256,
+      "hdd": 0,
+      "graphics": "Integrated",
+      "features": [
+        "Backlit Keyboard",
+        "Fingerprint Reader"
+      ],
+      "availability": "in-stock",
+      "spec": "Core i5 12th Gen · 16GB / 256GB",
+      "specs": [
+        "Core i5 12th Gen",
+        "16GB RAM",
+        "256GB SSD",
+        "Pre-owned AAA+ grade"
+      ],
+      "condition": "Pre-Owned AAA+",
+      "price": 60500,
+      "oldPrice": 65500,
+      "image": "/images/products/hp-elitebook-830-g9.png",
+      "isNewArrival": true,
+      "isStudentBudget": false,
+      "createdAt": "2026-10-30T10:00:00.000Z",
+      "isGaming": false
+    },
+    {
+      "id": 6,
+      "name": "Dell Latitude 7450",
+      "shortName": "Dell Latitude 7450",
+      "brand": "Dell",
+      "processor": "Core Ultra",
+      "processorGeneration": "Core Ultra Series 1",
+      "displaySize": 14,
+      "displayType": "IPS",
+      "ram": 32,
+      "ssd": 512,
+      "hdd": 0,
+      "graphics": "Integrated",
+      "features": [
+        "Backlit Keyboard",
+        "Fingerprint Reader",
+        "Intel vPro"
+      ],
+      "availability": "in-stock",
+      "spec": "Core Ultra 7-165H vPro · 32GB / 512GB · 14\" FHD+ 400 nits",
+      "specs": [
+        "Core Ultra 7-165H vPro",
+        "32GB RAM · 512GB SSD",
+        "14\" FHD+ 400 nits",
+        "Official warranty till 11 Dec 2027"
+      ],
+      "condition": "Pre-Owned AAA+",
+      "price": 117500,
+      "oldPrice": 125500,
+      "image": "/images/products/dell-latitude-7450.png",
+      "isNewArrival": false,
+      "isStudentBudget": true,
+      "createdAt": "2026-10-20T10:00:00.000Z",
+      "isGaming": false
+    },
+    {
+      "id": 7,
+      "name": "Lenovo V15 G4 ABP",
+      "shortName": "Lenovo V15 G4",
+      "brand": "Lenovo",
+      "processor": "Ryzen 7",
+      "processorGeneration": "Ryzen 7000 Series",
+      "displaySize": 15.6,
+      "displayType": "TN",
+      "ram": 8,
+      "ssd": 512,
+      "hdd": 1000,
+      "graphics": "Integrated",
+      "features": [],
+      "availability": "in-stock",
+      "spec": "Ryzen 7 7730U · 8GB / 512GB · 15.6\" display",
+      "specs": [
+        "Ryzen 7 7730U",
+        "8GB RAM",
+        "512GB SSD",
+        "15.6\" display"
+      ],
+      "condition": "Brand New",
+      "price": 79500,
+      "oldPrice": 83000,
+      "image": "/images/products/lenovo-v15-g4-abp.png",
+      "isNewArrival": false,
+      "isStudentBudget": true,
+      "createdAt": "2026-10-19T10:00:00.000Z",
+      "isGaming": false
+    },
+    {
+      "id": 8,
+      "name": "Dell Latitude 7440",
+      "shortName": "Dell Latitude 7440",
+      "brand": "Dell",
+      "processor": "Core i5",
+      "processorGeneration": "13th Gen",
+      "displaySize": 14,
+      "displayType": "IPS",
+      "ram": 16,
+      "ssd": 512,
+      "hdd": 0,
+      "graphics": "Integrated",
+      "features": [
+        "Backlit Keyboard"
+      ],
+      "availability": "pre-order",
+      "spec": "Core i5 13th Gen · 16GB / 512GB",
+      "specs": [
+        "Core i5 13th Gen",
+        "16GB RAM",
+        "512GB SSD",
+        "Pre-owned"
+      ],
+      "condition": "Pre-Owned",
+      "price": 76500,
+      "oldPrice": 79500,
+      "image": "/images/products/dell-latitude-7440.png",
+      "isNewArrival": false,
+      "isStudentBudget": true,
+      "createdAt": "2026-10-18T10:00:00.000Z",
+      "isGaming": false
+    },
+    {
+      "id": 9,
+      "name": "ASUS TUF Gaming A15",
+      "shortName": "ASUS TUF A15",
+      "brand": "Asus",
+      "processor": "Ryzen 7",
+      "processorGeneration": "Ryzen 8000 Series",
+      "displaySize": 15.6,
+      "displayType": "IPS",
+      "ram": 8,
+      "ssd": 512,
+      "hdd": 0,
+      "graphics": "NVIDIA RTX 3050",
+      "features": [
+        "144Hz Display",
+        "Backlit Keyboard"
+      ],
+      "availability": "in-stock",
+      "spec": "Ryzen 7 8845HS · RTX 3050 · 4GB · 144Hz · 8GB DDR5 / 512GB",
+      "specs": [
+        "Ryzen 7 8845HS",
+        "RTX 3050 · 4GB · 144Hz",
+        "8GB DDR5 RAM",
+        "512GB SSD"
+      ],
+      "hardware": {
+        "cpu": "Ryzen 7 8845HS",
+        "gpu": "RTX 3050 · 4GB · 144Hz",
+        "ram": "8GB DDR5",
+        "ssd": "512GB"
+      },
+      "condition": "Brand New",
+      "price": 146000,
+      "oldPrice": 150000,
+      "image": "/images/products/asus-tuf-gaming-a15.png",
+      "isNewArrival": false,
+      "isStudentBudget": false,
+      "isGaming": true,
+      "createdAt": "2026-10-17T10:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "name": "HP Victus 15-FB3093DX",
+      "shortName": "HP Victus 15",
+      "brand": "HP",
+      "processor": "Ryzen 7",
+      "processorGeneration": "Ryzen 7000 Series",
+      "displaySize": 15.6,
+      "displayType": "IPS",
+      "ram": 16,
+      "ssd": 512,
+      "hdd": 1000,
+      "graphics": "NVIDIA RTX 4050",
+      "features": [
+        "Backlit Keyboard"
+      ],
+      "availability": "in-stock",
+      "spec": "Ryzen 7 7445HS · RTX 4050 · 6GB · 16GB / 512GB",
+      "specs": [
+        "Ryzen 7 7445HS",
+        "RTX 4050 · 6GB",
+        "16GB RAM",
+        "512GB SSD"
+      ],
+      "hardware": {
+        "cpu": "Ryzen 7 7445HS",
+        "gpu": "RTX 4050 · 6GB",
+        "ram": "16GB",
+        "ssd": "512GB"
+      },
+      "condition": "Brand New",
+      "price": 105500,
+      "oldPrice": 115500,
+      "image": "/images/products/hp-victus-15-fb3093dx.png",
+      "isNewArrival": false,
+      "isStudentBudget": false,
+      "isGaming": true,
+      "createdAt": "2026-10-16T10:00:00.000Z"
+    },
+    {
+      "id": 11,
+      "name": "Acer Nitro V15 ANV15-52",
+      "shortName": "Acer Nitro V15",
+      "brand": "Acer",
+      "processor": "Core i5",
+      "processorGeneration": "13th Gen",
+      "displaySize": 15.6,
+      "displayType": "IPS",
+      "ram": 16,
+      "ssd": 512,
+      "hdd": 0,
+      "graphics": "NVIDIA RTX 5050",
+      "features": [
+        "Backlit Keyboard"
+      ],
+      "availability": "upcoming",
+      "spec": "Core i5-13420H · RTX 5050 · 8GB · 16GB / 512GB",
+      "specs": [
+        "Core i5-13420H",
+        "RTX 5050 · 8GB",
+        "16GB RAM",
+        "512GB SSD"
+      ],
+      "hardware": {
+        "cpu": "Core i5-13420H",
+        "gpu": "RTX 5050 · 8GB",
+        "ram": "16GB",
+        "ssd": "512GB"
+      },
+      "condition": "Brand New",
+      "price": 135500,
+      "oldPrice": 140000,
+      "image": "/images/products/acer-nitro-v15-anv15-52.png",
+      "isNewArrival": false,
+      "isStudentBudget": false,
+      "isGaming": true,
+      "createdAt": "2026-10-15T10:00:00.000Z"
+    },
+    {
+      "id": 12,
+      "name": "Lenovo LOQ 15APH8",
+      "shortName": "Lenovo LOQ 15",
+      "brand": "Lenovo",
+      "processor": "Ryzen 7",
+      "processorGeneration": "Ryzen 7000 Series",
+      "displaySize": 15.6,
+      "displayType": "IPS",
+      "ram": 16,
+      "ssd": 512,
+      "hdd": 0,
+      "features": [
+        "Backlit Keyboard"
+      ],
+      "availability": "pre-order",
+      "spec": "Ryzen 7 7840HS · 16GB / 512GB",
+      "specs": [
+        "Ryzen 7 7840HS",
+        "16GB RAM",
+        "512GB SSD"
+      ],
+      "hardware": {
+        "cpu": "Ryzen 7 7840HS",
+        "ram": "16GB",
+        "ssd": "512GB"
+      },
+      "condition": "Brand New",
+      "price": 86500,
+      "oldPrice": 90000,
+      "image": "/images/products/lenovo-loq-15aph8.png",
+      "isNewArrival": false,
+      "isStudentBudget": false,
+      "isGaming": true,
+      "createdAt": "2026-10-14T10:00:00.000Z"
+    }
+  ],
+  "contactMessages": [],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "এল এম স্বপ্নরাজ মিলন",
+      "initials": "LM",
+      "rating": 5,
+      "comment": "I purchased a laptop from Lappy Valley and used it for almost 1 year without any problem. I recommend Lappy Valley as the best place for laptops. Their behaviour with customers is amazing.",
+      "createdAt": "2026-10-20T10:00:00.000Z"
+    },
+    {
+      "name": "Mahfujul Hasan",
+      "initials": "MH",
+      "rating": 5,
+      "subject": "for just test purpose",
+      "comment": "sdfjljsdlkfjsdlfj",
+      "createdAt": "2026-11-04T05:06:26.358Z",
+      "id": 2
+    },
+    {
+      "name": "Test User",
+      "initials": "TU",
+      "rating": 4,
+      "subject": "Test purpse",
+      "comment": "the product is well",
+      "createdAt": "2026-11-04T12:49:55.975Z",
+      "id": 3
+    }
+  ],
+  "reviewContacts": [
+    {
+      "reviewId": 2,
+      "email": "mahfujulsirat00@gmail.com",
+      "id": 1
+    },
+    {
+      "reviewId": 3,
+      "email": "test@example.com",
+      "id": 2
+    }
+  ],
+  "coupons": [
+    {
+      "id": 1,
+      "code": "WELCOME500",
+      "type": "fixed",
+      "value": 500,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "code": "LAPPY5",
+      "type": "percent",
+      "value": 5,
+      "featured": true
+    }
+  ],
+  "orders": [
+    {
+      "userId": 2,
+      "customer": {
+        "firstName": "Mahfujul",
+        "lastName": "Hasan",
+        "address": "Molla bari road, toll plaza.",
+        "mobile": "+8801876800680",
+        "email": "mahfujulsirat00@gmail.com",
+        "city": "Rupatoli",
+        "zone": "Barishal",
+        "comment": ""
+      },
+      "delivery": {
+        "method": "express",
+        "fee": 120
+      },
+      "payment": "online",
+      "items": [
+        {
+          "productId": 1,
+          "name": "Acer Aspire 7 A715-79G",
+          "price": 125000,
+          "quantity": 1,
+          "image": "/images/products/acer-aspire-7-a715-79g.png"
+        },
+        {
+          "productId": 2,
+          "name": "Lenovo ThinkPad X1 Carbon",
+          "price": 68500,
+          "quantity": 1,
+          "image": "/images/products/lenovo-thinkpad-x1-carbon.png"
+        },
+        {
+          "productId": 3,
+          "name": "Microsoft Surface Laptop 4",
+          "price": 57500,
+          "quantity": 1,
+          "image": "/images/products/microsoft-surface-laptop-4.png"
+        }
+      ],
+      "totals": {
+        "subtotal": 267000,
+        "discount": 16000,
+        "couponCode": null,
+        "couponDiscount": 0,
+        "deliveryFee": 120,
+        "total": 251120
+      },
+      "status": "Pending",
+      "createdAt": "2026-11-04T08:58:05.577Z",
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "customer": {
+        "firstName": "Test",
+        "lastName": "User",
+        "address": "Molla bari road, toll plaza.",
+        "mobile": "01800000000",
+        "email": "test@example.com",
+        "city": "Rupatoli",
+        "zone": "Barishal",
+        "comment": ""
+      },
+      "delivery": {
+        "method": "pickup",
+        "fee": 0
+      },
+      "payment": "online",
+      "items": [
+        {
+          "productId": 1,
+          "name": "Acer Aspire 7 A715-79G",
+          "price": 125000,
+          "quantity": 1,
+          "image": "/images/products/acer-aspire-7-a715-79g.png"
+        },
+        {
+          "productId": 2,
+          "name": "Lenovo ThinkPad X1 Carbon",
+          "price": 68500,
+          "quantity": 1,
+          "image": "/images/products/lenovo-thinkpad-x1-carbon.png"
+        }
+      ],
+      "totals": {
+        "subtotal": 203500,
+        "discount": 10000,
+        "couponCode": null,
+        "couponDiscount": 0,
+        "deliveryFee": 0,
+        "total": 193500
+      },
+      "status": "Pending",
+      "createdAt": "2026-11-04T12:51:42.403Z",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "email": "vixiw@mailinator.com",
+      "passwordHash": "c953b261ef47af87b61bfa7028ab97927f369f9af952d25b991a2924253f073c",
+      "salt": "f4bd7cd7dd3712c95ebba3c291542496",
+      "verified": true,
+      "createdAt": "2026-11-04T07:20:36.644Z",
+      "id": 1
+    },
+    {
+      "email": "mahfujulsirat00@gmail.com",
+      "passwordHash": "faa9218b6b877da9b944622e7a985b2026b71fee7b0e68b63b694fb2e31f194d",
+      "salt": "332ac7e02e83676a84b713bb77eaa22a",
+      "verified": true,
+      "createdAt": "2026-11-04T07:21:43.556Z",
+      "id": 2,
+      "firstName": "Mahfujul",
+      "lastName": "Hasan",
+      "phone": "+8801876800680"
+    },
+    {
+      "email": "test@example.com",
+      "passwordHash": "f0852a29f12e9710717937c9e2feb768a492903d38595c6426c5f5a4a68ffae9",
+      "salt": "e7c81dcd07133603ac1ee345b6f2c10c",
+      "verified": true,
+      "createdAt": "2026-11-04T09:14:54.061Z",
+      "id": 3,
+      "firstName": "Test",
+      "lastName": "User",
+      "phone": "01800000000",
+      "address": {
+        "line": "Molla bari road, toll plaza.",
+        "city": "Rupatoli",
+        "postCode": "1230",
+        "isDefault": true
+      }
+    }
+  ],
+  "passwordResets": [
+    {
+      "userId": 2,
+      "token": "03a4b48d-18e6-4f4f-9a19-db2b9b5f807e",
+      "expiresAt": "2026-11-04T09:43:49.223Z",
+      "used": true,
+      "id": 1
+    }
+  ],
+  "otpCodes": [
+    {
+      "userId": 1,
+      "salt": "66f9e14d31c9feb725a0c98c35697e1e",
+      "codeHash": "3f5f4e650fc375e7fba8189440ef84b296b9c58fe6ecc1a13e4fdaff1638164a",
+      "expiresAt": "2026-11-04T07:30:36.882Z",
+      "attempts": 0,
+      "used": true,
+      "devCode": "928375",
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "salt": "a4fcf45ece870d58fc3a23beb24d106c",
+      "codeHash": "b9f9d9800a45b790f5d03169a97347193b73a173f60ead72a30fc1341083fe3b",
+      "expiresAt": "2026-11-04T07:31:43.827Z",
+      "attempts": 0,
+      "used": true,
+      "devCode": "641725",
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "salt": "a404254011b4fec034baffe7f6175bd3",
+      "codeHash": "4653b3cd19f7a0476ee4e049f115bdff936c155a6931d7a480506ff48b68c33a",
+      "expiresAt": "2026-11-04T09:24:54.185Z",
+      "attempts": 0,
+      "used": true,
+      "devCode": "606148",
+      "id": 3
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "title": "Microsoft Surface Laptop 4 Core i5 11th Gen",
+      "category": "Product review",
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/Lappy.BD/videos/7182183938555619/"
+    },
+    {
+      "id": 2,
+      "title": "Best gaming laptop at every price range",
+      "category": "Gaming",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=PQsebbVeSyo"
+    },
+    {
+      "id": 3,
+      "title": "Dell Latitude 7320 Detachable 2-in-1 Only ৳ 105,000",
+      "category": "Product review",
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/Lappy.BD/videos/440473775003792/"
+    },
+    {
+      "id": 4,
+      "title": "USED ল্যাপটপ কেনার কথা ভাবছেন? আপনার এই ভিডিও দেখা উচিত",
+      "category": "Buying guide",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=jEM4EyQiPJo"
+    }
+  ]
+}
