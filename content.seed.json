@@ -1,0 +1,789 @@
+[
+  {
+    "id": "terms",
+    "title": {
+      "en": "Terms & Conditions",
+      "bn": "শর্তাবলী"
+    },
+    "subtitle": {
+      "en": "Dear Customer, The Return and Refund policy of Lappy Valley are given below –",
+      "bn": "ল্যাপী ভ্যালি এর রিটার্ন ও রিফান্ড পলিসি নিম্নরূপ –"
+    },
+    "bilingual": true,
+    "defaultOpenId": "delivery",
+    "highlights": [
+      {
+        "icon": "Truck",
+        "value": {
+          "en": "5 / 10 days",
+          "bn": "৫ / ১০ দিন"
+        },
+        "label": {
+          "en": "Delivery time",
+          "bn": "ডেলিভারি সময়"
+        }
+      },
+      {
+        "icon": "Phone",
+        "value": {
+          "en": "24 hours",
+          "bn": "২৪ ঘন্টা"
+        },
+        "label": {
+          "en": "Online orders: report within 24 hours",
+          "bn": "অনলাইন অর্ডার: ২৪ ঘন্টার মধ্যে জানান"
+        }
+      },
+      {
+        "icon": "RotateCcw",
+        "value": {
+          "en": "3–10 working days",
+          "bn": "৩–১০ কার্যদিবস"
+        },
+        "label": {
+          "en": "Refund time",
+          "bn": "রিফান্ডের সময়"
+        }
+      },
+      {
+        "icon": "Mail",
+        "value": {
+          "en": "Email us first",
+          "bn": "আগে ইমেইল করুন"
+        },
+        "label": {
+          "en": "How to start a return",
+          "bn": "রিটার্ন শুরু করবেন যেভাবে"
+        }
+      }
+    ],
+    "sections": [
+      {
+        "id": "delivery",
+        "icon": "Truck",
+        "title": {
+          "en": "Delivery time",
+          "bn": "ডেলিভারি সময়"
+        },
+        "tag": {
+          "en": "5 / 10 days",
+          "bn": "৫ / ১০ দিন"
+        },
+        "body": {
+          "en": "We deliver within 5 days inside Dhaka and 10 days outside Dhaka",
+          "bn": "আমরা ঢাকার ভিতরে ৫ দিনের মধ্যে এবং ঢাকার বাইরে ১০ দিনের মধ্যে ডেলিভারি করি"
+        }
+      },
+      {
+        "id": "shop",
+        "icon": "Store",
+        "title": {
+          "en": "Buying from our outlets",
+          "bn": "আউটলেট থেকে ক্রয়"
+        },
+        "tag": {
+          "en": "Check in store",
+          "bn": "শপে চেক করুন"
+        },
+        "body": {
+          "en": "If a customer is buying the products from our shops, then please make sure to check the products in front of our Sales Executive. Later, if any problems occurs than the customer will not be entitled to any changes but will be given services based on the products provided description.(Warranty)",
+          "bn": "আউট লেট থেকে পণ্য ক্রয়ের ক্ষেত্রে অবশ্যই শপে বিক্রয়কর্মীর সামনে চেক করে কিনবেন। পরবর্তীতে সমস্যা হলে যদি পণ্যে ওয়ারেন্টি থাকে তবে তা ওয়ারেন্টির আওতাভুক্ত হবে।"
+        }
+      },
+      {
+        "id": "online",
+        "icon": "Phone",
+        "title": {
+          "en": "Online orders: report within 24 hours",
+          "bn": "অনলাইন অর্ডার: ২৪ ঘন্টার মধ্যে জানান"
+        },
+        "tag": {
+          "en": "24 hours",
+          "bn": "২৪ ঘন্টা"
+        },
+        "body": {
+          "en": "In the case of ordering online, after receiving the product, if any manufacturing issues or problems are noticed or discovered than customer has to inform us within 24 hours via our hotline service.",
+          "bn": "অনলাইন অর্ডারের ক্ষেত্রে পণ্য ডেলিভারি পাবার পর পণ্যে মেনুফেকচারিং ত্রুটি থাকলে আমাদের হটলাইনে ২৪ ঘন্টার মধ্যে জানাতে হবে।"
+        }
+      },
+      {
+        "id": "defect",
+        "icon": "Wrench",
+        "title": {
+          "en": "Replacing a defective product",
+          "bn": "ত্রুটিযুক্ত পণ্য পরিবর্তন"
+        },
+        "tag": {
+          "en": "At our shops",
+          "bn": "আমাদের শপে"
+        },
+        "body": {
+          "en": "If a customer received a manufacturing defected product than the customer has to visit any of our shops where our specialists will review the product first and then take the necessary steps to changing the product if it is in need of replacement.",
+          "bn": "ত্রুটিযুক্ত পণ্য আমাদের স্টোর থেকে পরিবর্তন করা যাবে। এক্ষেত্রে আমাদের এক্সপার্টগন পণ্যে ত্রুটি পর্যবেক্ষণ করে তা পরিবর্তন করার পদক্ষেপ গ্রহন করবেন।"
+        }
+      },
+      {
+        "id": "swap",
+        "icon": "ArrowLeftRight",
+        "title": {
+          "en": "Replacement through delivery",
+          "bn": "ডেলিভারির মাধ্যমে পরিবর্তন"
+        },
+        "tag": {
+          "en": "৳200 in Dhaka",
+          "bn": "৩০০/- টাকা"
+        },
+        "body": {
+          "en": "If a customer wants to change the defected product through our delivery service, then a charge Of TK. 200/- has to be paid as replacement charge inside Dhaka and if out of Dhaka, only the Courier charge is applicable.",
+          "bn": "ক্রেতা যদি ডেলিভারি ম্যান এর মাধ্যমে ত্রুটিযুক্ত পণ্য পরিবর্তন করতে ইচ্ছুক থাকেন অথবা পণ্য পরিবর্তন করতে চান তবে ৩০০/- টাকা পরিবর্তন চার্জ প্রযোজ্য হবে। ঢাকার বাইরের ক্ষেত্রে শুধুমাত্র কুরিয়ার চার্জ প্রযোজ্য হবে। পণ্য আনার পর যদি পণ্য ভাঙ্গা অথবা পোড়া/ জ্বলা অবস্থায় পাওয়া যায় তবে সেই পণ্যের সম্পূর্ণ দায়িক্ত ক্রেতাকে বহন করতে হবে।"
+        }
+      },
+      {
+        "id": "no-change",
+        "icon": "Ban",
+        "title": {
+          "en": "No returns for change of mind",
+          "bn": "মত পরিবর্তনে ফেরত নয়"
+        },
+        "tag": {
+          "en": "Non-returnable",
+          "bn": "ফেরতযোগ্য নয়"
+        },
+        "body": {
+          "en": "If a Customer is buying any product from our Website after reading the description and provided information’s about the particular product and is received successfully without any faults and later if the product is not compatible with your setup or if you do not want it anymore, then you will not be allowed to change or return the product.",
+          "bn": "ল্যাপী ভ্যালি এর ওয়েবসাইটে থাকা বিবরণী দেখে ক্রয়ক্রিত পণ্য ডেলিভারি কর্মী থেকে রিসিভ করার পর তা আপনার নির্দিষ্ট ডিভাইসে সাপোর্ট করছে না অথবা তা এখন আর কিনতে ইচ্ছুক নন, এই জাতিয় কোন কারনে পণ্য ফেরত অথবা পরিবর্তন বা গ্রহনযোগ্য নয়।"
+        }
+      },
+      {
+        "id": "courier",
+        "icon": "Package",
+        "title": {
+          "en": "Damaged courier packages",
+          "bn": "কুরিয়ারে ক্ষতিগ্রস্ত পণ্য"
+        },
+        "tag": {
+          "en": "Don’t accept it",
+          "bn": "রিসিভ করবেন না"
+        },
+        "body": {
+          "en": "If customers found broken or packet damaged product then we are requesting not to receive the product from courier service. If the customer receives courier damaged product then he/she have to take his/her own liability and any kind of complaint won’t be acceptable.",
+          "bn": "কুরিয়ার এর ক্ষেত্রে ক্রেতা অবশ্যই পণ্য ভাঙ্গা থাকলে অথবা প্যাকেট ছেঁড়া থাকলে কুরিয়ার থেকে পণ্য রিসিভ করবে না। কুরিয়ারে ক্ষতিগ্রস্ত পণ্য ক্রেতা রিসিভ করলে তা নিজ দায়িত্বে করতে হবে এবং এই ব্যাপারে পরে কোন অভিযোগ গ্রহণযোগ্য হবে না।"
+        }
+      },
+      {
+        "id": "refund",
+        "icon": "RotateCcw",
+        "title": {
+          "en": "Refund time",
+          "bn": "রিফান্ডের সময়"
+        },
+        "tag": {
+          "en": "3–10 working days",
+          "bn": "৩–১০ কার্যদিবস"
+        },
+        "body": {
+          "en": "With specific reasoning’s, product(s) will be allowed to be returned and refunded back to you within 3 to 10 working days and in the case of online purchase, the procedure may take longer to execute.",
+          "bn": "নির্দিষ্ট কারণে পণ্য রিটার্ন দেয়ার পর তার মূল্য রিফান্ড করতে ৩ থেকে ১০ কার্যদিবস বা অনলাইন পেমেন্টের ক্ষেত্রে আরও বেশি সময় লাগতে পারে।"
+        }
+      },
+      {
+        "id": "charge",
+        "icon": "CreditCard",
+        "title": {
+          "en": "Refund charge",
+          "bn": "রিফান্ড চার্জ"
+        },
+        "tag": {
+          "en": "bKash / Online / POS",
+          "bn": "বিকাশ / অনলাইন / POS"
+        },
+        "body": {
+          "en": "Refund charge applicable for Bkash / Online / POS payment refund.",
+          "bn": "বিকাশ / অনলাইন / POS পেমেন্ট রিফান্ডের ক্ষেত্রে রিফান্ড চার্জ প্রযোজ্য ।"
+        }
+      },
+      {
+        "id": "start",
+        "icon": "Mail",
+        "title": {
+          "en": "How to start a return",
+          "bn": "রিটার্ন শুরু করবেন যেভাবে"
+        },
+        "tag": {
+          "en": "Email us first",
+          "bn": "আগে ইমেইল করুন"
+        },
+        "body": {
+          "en": "To start a return, you can contact us at {email}. If your return is accepted, we’ll send you a return shipping label, as well as instructions on how and where to send your package. Items sent back to us without first requesting a return will not be accepted.\n\nYou can always contact us for any return question at {email}",
+          "bn": "রিটার্ন শুরু করতে {email} এ ইমেইল করুন। রিটার্ন গৃহীত হলে আমরা আপনাকে একটি রিটার্ন শিপিং লেবেল এবং কোথায় ও কীভাবে পণ্য পাঠাবেন তার নির্দেশনা পাঠাব। আগে রিটার্নের অনুরোধ না করে পাঠানো পণ্য গ্রহণ করা হবে না।"
+        }
+      }
+    ]
+  },
+  {
+    "id": "privacy",
+    "title": {
+      "en": "Privacy Policy"
+    },
+    "subtitle": {
+      "en": "Your privacy at a glance — open any section for the full details."
+    },
+    "bilingual": false,
+    "defaultOpenId": "collect",
+    "highlights": [
+      {
+        "icon": "Database",
+        "value": {
+          "en": "What we collect"
+        },
+        "label": {
+          "en": "Comment details, IP address, browser info, and the profile you create."
+        }
+      },
+      {
+        "icon": "Cookie",
+        "value": {
+          "en": "Cookies"
+        },
+        "label": {
+          "en": "Login cookies last 2 days; comment and display cookies last 1 year."
+        }
+      },
+      {
+        "icon": "ShieldCheck",
+        "value": {
+          "en": "Your rights"
+        },
+        "label": {
+          "en": "Ask us to export or erase the personal data we hold about you."
+        }
+      },
+      {
+        "icon": "Share2",
+        "value": {
+          "en": "Who sees it"
+        },
+        "label": {
+          "en": "Website administrators. Comments may go through a spam check."
+        }
+      }
+    ],
+    "sections": [
+      {
+        "id": "who",
+        "icon": "Store",
+        "title": {
+          "en": "Who we are"
+        },
+        "tag": {
+          "en": "The basics"
+        },
+        "body": {
+          "en": "Our website address is: [https://lappyvalley.com](https://lappyvalley.com)."
+        }
+      },
+      {
+        "id": "collect",
+        "icon": "Database",
+        "title": {
+          "en": "What personal data we collect and why we collect it"
+        },
+        "tag": {
+          "en": "Comments, media, forms"
+        },
+        "body": {
+          "en": "### Comments\n\nWhen visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.\n\nAn anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: [https://automattic.com/privacy/](https://automattic.com/privacy/). After approval of your comment, your profile picture is visible to the public in the context of your comment.\n\n### Media\n\nIf you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.\n\n### Contact forms\n\n_[Add details here]_\n\n### Embedded content from other websites\n\nArticles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.\n\nThese websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.\n\n### Analytics\n\n_[Add details here]_"
+        }
+      },
+      {
+        "id": "cookies",
+        "icon": "Cookie",
+        "title": {
+          "en": "Cookies"
+        },
+        "tag": {
+          "en": "How long they last"
+        },
+        "body": {
+          "en": "If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.\n\nIf you visit our login page, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.\n\nWhen you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select “Remember Me”, your login will persist for two weeks. If you log out of your account, the login cookies will be removed.\n\nIf you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day."
+        }
+      },
+      {
+        "id": "share",
+        "icon": "Share2",
+        "title": {
+          "en": "Who we share your data with and How long we retain your data"
+        },
+        "tag": {
+          "en": "Retention"
+        },
+        "body": {
+          "en": "If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.\n\nFor users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information."
+        }
+      },
+      {
+        "id": "rights",
+        "icon": "ShieldCheck",
+        "title": {
+          "en": "What rights you have over your data"
+        },
+        "tag": {
+          "en": "Export or erase"
+        },
+        "body": {
+          "en": "If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes."
+        }
+      },
+      {
+        "id": "send",
+        "icon": "Send",
+        "title": {
+          "en": "Where we send your data"
+        },
+        "tag": {
+          "en": "Spam checks"
+        },
+        "body": {
+          "en": "Visitor comments may be checked through an automated spam detection service."
+        }
+      },
+      {
+        "id": "contact",
+        "icon": "Mail",
+        "title": {
+          "en": "Your contact information"
+        },
+        "tag": {
+          "en": "Reach us"
+        },
+        "body": {
+          "en": "Email {email} or call {hotline}. You can also visit any of our three outlets — Uttara, Jamuna Future Park or Bashundhara City."
+        }
+      },
+      {
+        "id": "more",
+        "icon": "Info",
+        "title": {
+          "en": "Additional information"
+        },
+        "tag": {
+          "en": "To be completed"
+        },
+        "body": {
+          "en": "### How we protect your data\n\n_[Add details here]_\n\n### What data breach procedures we have in place\n\n_[Add details here]_\n\n### What third parties we receive data from\n\n_[Add details here]_\n\n### What automated decision making and/or profiling we do with user data\n\n_[Add details here]_\n\n### Industry regulatory disclosure requirements\n\n_[Add details here]_"
+        }
+      }
+    ]
+  },
+  {
+    "id": "refund",
+    "title": {
+      "en": "Refund & Service Policy"
+    },
+    "subtitle": {
+      "en": "The short version first — tap any section below for the full details."
+    },
+    "bilingual": false,
+    "defaultOpenId": "refund",
+    "highlights": [
+      {
+        "icon": "Wrench",
+        "value": {
+          "en": "Lifetime"
+        },
+        "label": {
+          "en": "Complimentary service for all laptops"
+        }
+      },
+      {
+        "icon": "RotateCcw",
+        "value": {
+          "en": "7–10 days"
+        },
+        "label": {
+          "en": "Working days to process your refund"
+        }
+      },
+      {
+        "icon": "Package",
+        "value": {
+          "en": "At delivery"
+        },
+        "label": {
+          "en": "Check your laptop before the courier leaves"
+        }
+      }
+    ],
+    "sections": [
+      {
+        "id": "service",
+        "icon": "Wrench",
+        "title": {
+          "en": "Service"
+        },
+        "tag": {
+          "en": "Lifetime service"
+        },
+        "body": {
+          "en": "We provide complimentary lifetime service for all laptops."
+        }
+      },
+      {
+        "id": "refund",
+        "icon": "RotateCcw",
+        "title": {
+          "en": "Refund"
+        },
+        "tag": {
+          "en": "7–10 working days"
+        },
+        "body": {
+          "en": "Once your return is received and inspected, we will email you to confirm that we have received your returned item. We will also tell you whether your refund is approved or rejected.\n\nIf it is approved, your refund will be processed and a credit will automatically be applied to your credit card or original method of payment.\n\nWe refund within 7 to 10 working days. The process may take longer because of technical issues."
+        }
+      },
+      {
+        "id": "late-refund",
+        "icon": "Clock",
+        "title": {
+          "en": "Late or missing refund"
+        },
+        "tag": {
+          "en": "4 quick checks"
+        },
+        "body": {
+          "en": "1. First, check your bank account again.\n1. Then contact your credit card company — it may take some time before your refund is officially posted.\n1. Next, contact your bank. There is often some processing time before a refund is posted.\n1. If you have done all of this and still have not received your refund, contact us at {email}."
+        }
+      },
+      {
+        "id": "replacement",
+        "icon": "Package",
+        "title": {
+          "en": "Replacement"
+        },
+        "tag": {
+          "en": "At delivery only"
+        },
+        "body": {
+          "en": "We only replace items that are defective or damaged at the time of delivery. Check the product properly in front of the delivery person — once they leave, the product is no longer eligible for return."
+        }
+      },
+      {
+        "id": "gifts",
+        "icon": "Gift",
+        "title": {
+          "en": "Gifts"
+        },
+        "tag": {
+          "en": "Gift credit"
+        },
+        "body": {
+          "en": "If the item was marked as a gift when purchased and shipped directly to you, you will receive a gift credit for the value of your return. Once the returned item is received, a gift certificate will be mailed to you.\n\nIf the item was not marked as a gift when purchased, or the gift giver had the order shipped to themselves to give to you later, we will send the refund to the gift giver and they will find out about your return."
+        }
+      },
+      {
+        "id": "shipping-returns",
+        "icon": "Truck",
+        "title": {
+          "en": "Shipping returns"
+        },
+        "tag": {
+          "en": "Faulty or wrong items"
+        },
+        "body": {
+          "en": "Only torn, faulty or wrong products are refundable. Other products cannot be returned."
+        }
+      },
+      {
+        "id": "help",
+        "icon": "CircleHelp",
+        "title": {
+          "en": "Need help?"
+        },
+        "tag": {
+          "en": "We are here"
+        },
+        "body": {
+          "en": "Contact us at {email} for questions about refunds and returns, or call {hotline}."
+        }
+      }
+    ]
+  },
+  {
+    "id": "about",
+    "eyebrow": "Meet the founders",
+    "heading": "The people behind Lappy Valley",
+    "intro": "Brand new and used laptops imported from **USA, Dubai & Japan**, in different models at a very competitive market price.",
+    "brands": [
+      "MacBook",
+      "HP",
+      "ASUS",
+      "Dell",
+      "Lenovo",
+      "MSI",
+      "Acer",
+      "Microsoft Surface",
+      "Toshiba",
+      "Razer Blade",
+      "Samsung"
+    ],
+    "founders": [
+      {
+        "id": "mohammad-a-rahman",
+        "name": "Mohammad A Rahman",
+        "role": "Entrepreneur",
+        "image": "/images/founders/mohammad-a-rahman.png"
+      },
+      {
+        "id": "kazi-mazharul-haque",
+        "name": "Kazi Mazharul Haque",
+        "role": "Entrepreneur",
+        "image": "/images/founders/kazi-mazharul-haque.png"
+      },
+      {
+        "id": "akm-mostafizur-rahman",
+        "name": "A.K.M. Mostafizur Rahman",
+        "role": "Entrepreneur",
+        "image": "/images/founders/akm-mostafizur-rahman.png"
+      }
+    ]
+  },
+  {
+    "id": "hero",
+    "autoplayMs": 5000,
+    "slides": [
+      {
+        "id": "msi-stealth-gs66",
+        "image": "/images/banners/msi-stealth-gs66-1536.webp",
+        "imageSmall": "/images/banners/msi-stealth-gs66-768.webp",
+        "alt": "New arrival gaming laptop: MSI Stealth GS66 Core i7-12700H, 32-512 GB SSD, RTX 3070Ti 8 GB GPU",
+        "brand": ""
+      },
+      {
+        "id": "asus-rog-strix-g16-2025",
+        "image": "/images/banners/asus-rog-strix-g16-2025-1536.webp",
+        "imageSmall": "/images/banners/asus-rog-strix-g16-2025-768.webp",
+        "alt": "Asus ROG Strix G16 (2025) Ryzen 9-8940HX gaming laptop",
+        "brand": "Asus"
+      },
+      {
+        "id": "asus-rog-zephyrus-g16-rtx-4090",
+        "image": "/images/banners/asus-rog-zephyrus-g16-rtx-4090-1536.webp",
+        "imageSmall": "/images/banners/asus-rog-zephyrus-g16-rtx-4090-768.webp",
+        "alt": "Asus ROG Zephyrus G16 14th Gen Core Ultra 9 185H, 32 GB RAM, 2 TB SSD, RTX 4090 16 GB GPU",
+        "brand": "Asus"
+      }
+    ],
+    "banners": [
+      {
+        "id": "asus-rog-zephyrus-g16-14th-gen",
+        "image": "/images/banners/asus-rog-zephyrus-g16-14th-gen-1536.webp",
+        "imageSmall": "/images/banners/asus-rog-zephyrus-g16-14th-gen-768.webp",
+        "alt": "Asus ROG Zephyrus G16 14th Gen gaming laptop",
+        "brand": "Asus"
+      },
+      {
+        "id": "asus-rog-zephyrus-g14",
+        "image": "/images/banners/asus-rog-zephyrus-g14-1536.webp",
+        "imageSmall": "/images/banners/asus-rog-zephyrus-g14-768.webp",
+        "alt": "Asus ROG Zephyrus G14 Ryzen 9-7940HS gaming laptop",
+        "brand": "Asus"
+      }
+    ]
+  },
+  {
+    "id": "faq",
+    "heading": "Questions?",
+    "headingAccent": "We have answers.",
+    "subheading": "Everything about buying, paying for and getting your laptop from Lappy Valley.",
+    "categories": [
+      {
+        "id": "products",
+        "label": "Products"
+      },
+      {
+        "id": "orders",
+        "label": "Orders & Payment"
+      },
+      {
+        "id": "delivery",
+        "label": "Delivery"
+      },
+      {
+        "id": "service",
+        "label": "Warranty & Service"
+      }
+    ],
+    "items": [
+      {
+        "id": "new-or-used",
+        "category": "products",
+        "question": "Do you sell brand new or used laptops?",
+        "answer": "Both. We sell brand new laptops and pre-owned laptops graded AAA+, imported from the USA, Dubai and Japan."
+      },
+      {
+        "id": "brands",
+        "category": "products",
+        "question": "Which brands do you carry?",
+        "answer": "MacBook, HP, ASUS, Dell, Lenovo, MSI, Acer, Microsoft Surface, Toshiba, Razer Blade and Samsung, in many different models."
+      },
+      {
+        "id": "payment-methods",
+        "category": "orders",
+        "question": "Which payment methods do you accept?",
+        "answer": "Cash on delivery, or online payment by Visa, Mastercard, bKash, Nagad, Upay, TakaPay and more. Online payments are verified by SSLCommerz."
+      },
+      {
+        "id": "coupon",
+        "category": "orders",
+        "question": "Can I use a coupon code?",
+        "answer": "Yes. Open your cart, tap “Add a coupon code?”, enter the code and apply it before you confirm the order."
+      },
+      {
+        "id": "track-order",
+        "category": "orders",
+        "question": "How do I track my order?",
+        "answer": "Log in and open My Account → Orders. Each order shows its status (Pending, Processing, Delivered) and payment status."
+      },
+      {
+        "id": "delivery-cost",
+        "category": "delivery",
+        "question": "How much does delivery cost?",
+        "answer": "Store pickup is free. Express delivery costs ৳120 and is delivered through SA P.B."
+      },
+      {
+        "id": "see-before-buying",
+        "category": "delivery",
+        "question": "Can I see the laptop before buying?",
+        "answer": "Yes. Visit any of our three outlets — Uttara (Rajuk Commercial Complex), Jamuna Future Park or Bashundhara City."
+      },
+      {
+        "id": "warranty",
+        "category": "service",
+        "question": "Do your laptops come with a warranty?",
+        "answer": "Warranty depends on the laptop. Check the Warranty section on each product page."
+      },
+      {
+        "id": "after-sales",
+        "category": "service",
+        "question": "What if I have a problem after buying?",
+        "answer": "We provide after-sales service. Bring the laptop to any outlet or call {hotline} and we will solve it."
+      }
+    ]
+  },
+  {
+    "id": "footer",
+    "email": "info@lappyvalley.com",
+    "hotline": "+880 1901-643834",
+    "tradeLicense": "202984",
+    "bin": "0049818790102",
+    "copyright": "© 2026 lappyvalley.com · All Rights Reserved",
+    "outlets": [
+      {
+        "id": "uttara",
+        "label": "Uttara",
+        "tag": "Outlet 01 · Uttara",
+        "address": "Shop # 607 (5th Floor), Rajuk Commercial Complex, Azampur, Uttara, Dhaka-1230",
+        "phones": [
+          "01901-643831",
+          "01901-643834"
+        ],
+        "mapHref": "https://maps.app.goo.gl/r4t4cnWUiCngZsqQ7"
+      },
+      {
+        "id": "jamuna",
+        "label": "Jamuna Future Park",
+        "tag": "Outlet 02 · Jamuna",
+        "address": "Shop # 4D-014B1, East Court, Block # D, Level #04, Jamuna Future Park, Dhaka-1229",
+        "phones": [
+          "01901-643835",
+          "01901-643836"
+        ],
+        "mapHref": "https://maps.app.goo.gl/6c1wD57m1XS2eckX8"
+      },
+      {
+        "id": "bashundhara",
+        "label": "Bashundhara City",
+        "tag": "Outlet 03 · Bashundhara City",
+        "address": "Shop # 33, Level 6, Block D, Bashundhara City Shopping Complex, West Panthapath, Dhaka-1215",
+        "phones": [
+          "01901-643832",
+          "01901-643833"
+        ],
+        "mapHref": ""
+      }
+    ],
+    "social": [
+      {
+        "label": "Facebook",
+        "href": "#"
+      },
+      {
+        "label": "Instagram",
+        "href": "#"
+      },
+      {
+        "label": "YouTube",
+        "href": "#"
+      },
+      {
+        "label": "X",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "id": "seo",
+    "siteName": "Lappy Valley",
+    "defaultTitle": "Laptops, sorted.",
+    "defaultDescription": "Brand new and pre-owned laptops in Bangladesh, imported from the USA, Dubai and Japan.",
+    "shareImage": "",
+    "pages": {
+      "home": {
+        "title": "Laptops, sorted.",
+        "description": "Brand new and pre-owned laptops in Bangladesh, imported from the USA, Dubai and Japan."
+      },
+      "shop": {
+        "title": "Shop",
+        "description": "Browse brand new and pre-owned laptops at Lappy Valley."
+      },
+      "offers": {
+        "title": "Offers",
+        "description": "Laptops with a price cut and coupon codes you can use at checkout at Lappy Valley."
+      },
+      "videos": {
+        "title": "Videos",
+        "description": "Watch Lappy Valley laptop reviews, buying guides and gaming picks before you buy."
+      },
+      "about": {
+        "title": "About Us",
+        "description": "Meet the founders of Lappy Valley, importers of brand new and used laptops from USA, Dubai and Japan."
+      },
+      "terms": {
+        "title": "Terms & Conditions",
+        "description": "Delivery, replacement, return and refund terms for Lappy Valley, in English and Bangla."
+      },
+      "privacy": {
+        "title": "Privacy Policy",
+        "description": "How Lappy Valley collects, uses and protects your personal data."
+      },
+      "refund": {
+        "title": "Refund & Service Policy",
+        "description": "Lifetime service, refund timelines, replacements and returns at Lappy Valley."
+      }
+    }
+  },
+  {
+    "id": "offers",
+    "title": "Offers",
+    "subtitle": "Laptops with a price cut, and coupon codes you can use at checkout.",
+    "couponsHeading": "Coupon codes",
+    "couponsText": "Copy a code, then enter it in your [cart](/cart).",
+    "dealsHeading": "Laptops on offer",
+    "dealsText": "Biggest discounts first."
+  },
+  {
+    "id": "branding",
+    "logo": "",
+    "icon": ""
+  }
+]
