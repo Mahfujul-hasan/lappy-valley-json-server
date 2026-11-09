@@ -118,6 +118,21 @@ const DESCRIBERS = {
     };
   },
 
+  productReviews({ method, after, db }) {
+    if (method !== "POST" || !after) return null;
+    const user = findById(db, "users", after.userId);
+    const product = findById(db, "products", after.productId);
+    const productName = (product && product.name) || `Product #${after.productId}`;
+    const stars = "★".repeat(after.rating || 0);
+    return {
+      actor: customerActor(user),
+      action: "created",
+      entity: { type: "review", id: after.id, label: after.subject || `${productName} review` },
+      summary: `Reviewed ${productName} (${after.rating}-star)`,
+      changes: [{ field: "Rating", from: "—", to: `${stars} (${after.rating}/5)` }],
+    };
+  },
+
   passwordResets({ method, after, db }) {
     if (method !== "POST" || !after) return null;
     const user = findById(db, "users", after.userId);

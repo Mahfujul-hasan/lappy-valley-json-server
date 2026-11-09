@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const jsonServer = require("json-server");
 const { createStorefrontAudit } = require("./storefront-audit");
+const { syncAllRatings, captureRatingTargets, applyRatingSync } = require("./product-ratings");
 
 // DB_FILE env lets you run against a copy (e.g. to try changes without touching db.json).
 const DB_FILE = process.env.DB_FILE || path.join(__dirname, "db.json");
@@ -27,10 +28,17 @@ function seedMissingContent() {
 }
 
 /**
- * Dashboard-owned collections that start empty. json-server 0.17 answers 404 for a
- * collection missing from db.json (even for POST), so create them on start-up.
+ * Collections that start empty. json-server 0.17 answers 404 for a collection missing
+ * from db.json (even for POST), so create them on start-up.
+ *
+ * productReviews: one doc per product review, separate from `reviews` (store-wide
+ * testimonials). Shape: { id, productId, userId, rating, subject?, comment, createdAt,
+ * updatedAt? }. `productId` → products.id and `userId` → users.id are reference keys, so
+ * json-server answers `/products/:id/productReviews`, `/users/:id/productReviews` and
+ * `?_expand=product`. Never `_expand=user` from a client: it returns the user's
+ * passwordHash and salt — copy the display name onto the review instead.
  */
-const EMPTY_COLLECTIONS = ["auditLogs"];
+const EMPTY_COLLECTIONS = ["auditLogs", "productReviews"];
 
 function ensureCollections() {
   const db = JSON.parse(fs.readFileSync(DB_FILE, "utf8"));
@@ -48,12 +56,20 @@ const server = jsonServer.create();
 const router = jsonServer.router(DB_FILE);
 const middlewares = jsonServer.defaults();
 
+// Product rating/reviewCount are derived from productReviews (see product-ratings.js).
+syncAllRatings(router.db);
+router.render = (req, res) => {
+  applyRatingSync(req, res, router.db);
+  res.jsonp(res.locals.data);
+};
+
 const port = process.env.PORT || 4000;
 
 server.use(middlewares);
 server.use(jsonServer.bodyParser);
 // Customer activity → auditLogs (admin actions are logged by the dashboard itself).
 server.use(createStorefrontAudit(router));
+server.use(captureRatingTargets(router));
 server.use(router);
 
 server.listen(port, "0.0.0.0", () => {
