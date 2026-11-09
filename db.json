@@ -62,7 +62,9 @@
           "at": "2026-11-05T12:38:07.525Z",
           "by": "admin@lappyvalley.dev"
         }
-      ]
+      ],
+      "rating": 4.5,
+      "reviewCount": 2
     },
     {
       "id": 2,
@@ -129,7 +131,9 @@
           "at": "2026-11-05T12:43:08.929Z",
           "by": "admin@lappyvalley.dev"
         }
-      ]
+      ],
+      "rating": 5,
+      "reviewCount": 1
     },
     {
       "id": 3,
@@ -164,7 +168,7 @@
       "isStudentBudget": true,
       "createdAt": "2026-11-01T10:00:00.000Z",
       "isGaming": false,
-      "stock": 4,
+      "stock": 6,
       "lowStockThreshold": 3,
       "sku": "",
       "stockHistory": [
@@ -181,8 +185,24 @@
           "reason": "restock",
           "at": "2026-11-05T12:50:46.984Z",
           "by": "admin@lappyvalley.dev"
+        },
+        {
+          "change": -3,
+          "stock": 1,
+          "reason": "correction",
+          "at": "2026-11-09T13:48:58.652Z",
+          "by": "admin@lappyvalley.dev"
+        },
+        {
+          "change": 5,
+          "stock": 6,
+          "reason": "correction",
+          "at": "2026-11-09T13:49:09.245Z",
+          "by": "admin@lappyvalley.dev"
         }
-      ]
+      ],
+      "rating": 0,
+      "reviewCount": 0
     },
     {
       "id": 4,
@@ -218,7 +238,7 @@
       "isStudentBudget": false,
       "createdAt": "2026-10-31T10:00:00.000Z",
       "isGaming": false,
-      "stock": 1,
+      "stock": 5,
       "lowStockThreshold": 3,
       "sku": "",
       "stockHistory": [
@@ -228,8 +248,17 @@
           "reason": "correction",
           "at": "2026-11-05T12:41:37.287Z",
           "by": "admin@lappyvalley.dev"
+        },
+        {
+          "change": 4,
+          "stock": 5,
+          "reason": "correction",
+          "at": "2026-11-09T13:48:41.402Z",
+          "by": "admin@lappyvalley.dev"
         }
-      ]
+      ],
+      "rating": 5,
+      "reviewCount": 1
     },
     {
       "id": 5,
@@ -275,7 +304,9 @@
           "at": "2026-11-05T12:42:11.054Z",
           "by": "admin@lappyvalley.dev"
         }
-      ]
+      ],
+      "rating": 0,
+      "reviewCount": 0
     },
     {
       "id": 6,
@@ -336,7 +367,9 @@
           "at": "2026-11-05T12:51:20.782Z",
           "by": "admin@lappyvalley.dev"
         }
-      ]
+      ],
+      "rating": 0,
+      "reviewCount": 0
     },
     {
       "id": 7,
@@ -379,7 +412,9 @@
           "at": "2026-11-05T12:43:29.394Z",
           "by": "admin@lappyvalley.dev"
         }
-      ]
+      ],
+      "rating": 5,
+      "reviewCount": 1
     },
     {
       "id": 8,
@@ -424,7 +459,9 @@
           "at": "2026-11-05T12:43:59.241Z",
           "by": "admin@lappyvalley.dev"
         }
-      ]
+      ],
+      "rating": 0,
+      "reviewCount": 0
     },
     {
       "id": 9,
@@ -464,7 +501,9 @@
       "isNewArrival": false,
       "isStudentBudget": false,
       "isGaming": true,
-      "createdAt": "2026-10-17T10:00:00.000Z"
+      "createdAt": "2026-10-17T10:00:00.000Z",
+      "rating": 0,
+      "reviewCount": 0
     },
     {
       "id": 10,
@@ -503,7 +542,9 @@
       "isNewArrival": false,
       "isStudentBudget": false,
       "isGaming": true,
-      "createdAt": "2026-10-16T10:00:00.000Z"
+      "createdAt": "2026-10-16T10:00:00.000Z",
+      "rating": 0,
+      "reviewCount": 0
     },
     {
       "id": 11,
@@ -542,7 +583,9 @@
       "isNewArrival": false,
       "isStudentBudget": false,
       "isGaming": true,
-      "createdAt": "2026-10-15T10:00:00.000Z"
+      "createdAt": "2026-10-15T10:00:00.000Z",
+      "rating": 0,
+      "reviewCount": 0
     },
     {
       "id": 12,
@@ -578,7 +621,9 @@
       "isNewArrival": false,
       "isStudentBudget": false,
       "isGaming": true,
-      "createdAt": "2026-10-14T10:00:00.000Z"
+      "createdAt": "2026-10-14T10:00:00.000Z",
+      "rating": 4.5,
+      "reviewCount": 2
     }
   ],
   "contactMessages": [],
@@ -628,7 +673,8 @@
       "code": "WELCOME500",
       "type": "fixed",
       "value": 500,
-      "featured": true
+      "featured": true,
+      "active": false
     },
     {
       "id": 2,
@@ -1001,9 +1047,54 @@
         "deliveryFee": 120,
         "total": 250120
       },
-      "status": "Pending",
+      "status": "Processing",
       "createdAt": "2026-11-05T18:56:08.696Z",
-      "id": 7
+      "id": 7,
+      "updatedAt": "2026-11-09T09:04:13.832Z",
+      "statusHistory": [
+        {
+          "status": "Processing",
+          "at": "2026-11-09T09:04:13.832Z"
+        }
+      ]
+    },
+    {
+      "userId": 3,
+      "customer": {
+        "firstName": "Test",
+        "lastName": "User",
+        "address": "Molla bari road, toll plaza.",
+        "mobile": "01800000000",
+        "email": "test@example.com",
+        "city": "Rupatoli",
+        "zone": "Dhaka",
+        "comment": ""
+      },
+      "delivery": {
+        "method": "express",
+        "fee": 120
+      },
+      "payment": "cod",
+      "items": [
+        {
+          "productId": 6,
+          "name": "Dell Latitude 7450",
+          "price": 117500,
+          "quantity": 1,
+          "image": "/images/products/dell-latitude-7450.png"
+        }
+      ],
+      "totals": {
+        "subtotal": 125500,
+        "discount": 8000,
+        "couponCode": null,
+        "couponDiscount": 0,
+        "deliveryFee": 120,
+        "total": 117620
+      },
+      "status": "Pending",
+      "createdAt": "2026-11-09T10:26:22.329Z",
+      "id": 8
     }
   ],
   "users": [
@@ -1192,8 +1283,8 @@
   ],
   "settings": {
     "storeName": "Lappy Valley",
-    "supportEmail": "support@lappyvalley.dev",
-    "supportPhone": "+8801700000000"
+    "supportEmail": "info@lappyvalley.com",
+    "supportPhone": "+880 1901-643834"
   },
   "content": [
     {
@@ -1768,9 +1859,7 @@
           "imageSmall": "/images/banners/asus-rog-zephyrus-g16-rtx-4090-768.webp",
           "alt": "Asus ROG Zephyrus G16 14th Gen Core Ultra 9 185H, 32 GB RAM, 2 TB SSD, RTX 4090 16 GB GPU",
           "brand": "Asus"
-        }
-      ],
-      "banners": [
+        },
         {
           "id": "asus-rog-zephyrus-g16-14th-gen",
           "image": "/images/banners/asus-rog-zephyrus-g16-14th-gen-1536.webp",
@@ -1785,7 +1874,41 @@
           "alt": "Asus ROG Zephyrus G14 Ryzen 9-7940HS gaming laptop",
           "brand": "Asus"
         }
-      ]
+      ],
+      "promoMs": 4000,
+      "promos": [
+        {
+          "id": "student-lenovo",
+          "eyebrow": "Student pick",
+          "title": "Lenovo Laptops",
+          "highlight": "For class & work",
+          "cta": "Shop Lenovo",
+          "image": "/images/products/cutouts/lenovo-v15-g4-abp.png",
+          "imageAlt": "Lenovo V15 G4 laptop",
+          "brand": "Lenovo"
+        },
+        {
+          "id": "gaming-asus",
+          "eyebrow": "Gaming",
+          "title": "Asus TUF Gaming",
+          "highlight": "Built for play",
+          "cta": "Shop Asus",
+          "image": "/images/products/cutouts/asus-tuf-gaming-a15.png",
+          "imageAlt": "Asus TUF Gaming A15 laptop",
+          "brand": "Asus"
+        },
+        {
+          "id": "business-dell",
+          "eyebrow": "Business",
+          "title": "Dell Latitude",
+          "highlight": "Built for work",
+          "cta": "Shop Dell",
+          "image": "/images/products/cutouts/dell-latitude-7440.png",
+          "imageAlt": "Dell Latitude 7440 laptop",
+          "brand": "Dell"
+        }
+      ],
+      "updatedAt": "2026-11-09T11:38:36.552Z"
     },
     {
       "id": "faq",
@@ -1980,9 +2103,9 @@
     },
     {
       "id": "branding",
-      "logo": "https://res.cloudinary.com/dkpwkyimf/image/upload/v1793906601/lappy-valley/products/kij7y5dlocifdw3yco8n.png",
-      "icon": "",
-      "updatedAt": "2026-11-05T19:24:11.946Z"
+      "logo": "https://res.cloudinary.com/dkpwkyimf/image/upload/v1794231143/lappy-valley/products/toepa1staixcbhvglvlz.png",
+      "icon": "https://res.cloudinary.com/dkpwkyimf/image/upload/v1794231147/lappy-valley/products/aoo0vjuv0of3rxcoqiwy.png",
+      "updatedAt": "2026-11-09T13:32:28.179Z"
     }
   ],
   "auditLogs": [
@@ -2047,6 +2170,1042 @@
         "email": "admin@lappyvalley.dev"
       },
       "id": 2
+    },
+    {
+      "id": 3,
+      "at": "2026-11-09T06:22:24.220Z",
+      "source": "storefront",
+      "actor": {
+        "id": "customer:3",
+        "name": "Test User",
+        "email": "test@example.com"
+      },
+      "action": "created",
+      "entity": {
+        "type": "review",
+        "id": 1,
+        "label": "About the products"
+      },
+      "summary": "Reviewed Acer Aspire 7 A715-79G (5-star)",
+      "changes": [
+        {
+          "field": "Rating",
+          "from": "—",
+          "to": "★★★★★ (5/5)"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "at": "2026-11-09T06:26:03.766Z",
+      "source": "storefront",
+      "actor": {
+        "id": "customer:3",
+        "name": "Test User",
+        "email": "test@example.com"
+      },
+      "action": "created",
+      "entity": {
+        "type": "review",
+        "id": 2,
+        "label": "product review"
+      },
+      "summary": "Reviewed Acer Aspire 7 A715-79G (4-star)",
+      "changes": [
+        {
+          "field": "Rating",
+          "from": "—",
+          "to": "★★★★ (4/5)"
+        }
+      ]
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "review",
+        "id": 2,
+        "label": "product review"
+      },
+      "summary": "Showed Test User’s review on the home page",
+      "changes": [
+        {
+          "field": "On home page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T06:48:57.741Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 5
+    },
+    {
+      "id": 6,
+      "at": "2026-11-09T06:56:59.450Z",
+      "source": "storefront",
+      "actor": {
+        "id": "customer:3",
+        "name": "Test User",
+        "email": "test@example.com"
+      },
+      "action": "created",
+      "entity": {
+        "type": "review",
+        "id": 3,
+        "label": "Excellent Laptop with Smooth Performance"
+      },
+      "summary": "Reviewed Lenovo ThinkPad X1 Carbon (5-star)",
+      "changes": [
+        {
+          "field": "Rating",
+          "from": "—",
+          "to": "★★★★★ (5/5)"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "at": "2026-11-09T06:57:25.394Z",
+      "source": "storefront",
+      "actor": {
+        "id": "customer:3",
+        "name": "Test User",
+        "email": "test@example.com"
+      },
+      "action": "created",
+      "entity": {
+        "type": "review",
+        "id": 4,
+        "label": "Great Value for the Price"
+      },
+      "summary": "Reviewed Lenovo V15 G4 ABP (5-star)",
+      "changes": [
+        {
+          "field": "Rating",
+          "from": "—",
+          "to": "★★★★★ (5/5)"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "at": "2026-11-09T06:57:54.513Z",
+      "source": "storefront",
+      "actor": {
+        "id": "customer:3",
+        "name": "Test User",
+        "email": "test@example.com"
+      },
+      "action": "created",
+      "entity": {
+        "type": "review",
+        "id": 5,
+        "label": "Perfect Laptop for Students"
+      },
+      "summary": "Reviewed Lenovo LOQ 15APH8 (4-star)",
+      "changes": [
+        {
+          "field": "Rating",
+          "from": "—",
+          "to": "★★★★ (4/5)"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "at": "2026-11-09T06:58:18.716Z",
+      "source": "storefront",
+      "actor": {
+        "id": "customer:3",
+        "name": "Test User",
+        "email": "test@example.com"
+      },
+      "action": "created",
+      "entity": {
+        "type": "review",
+        "id": 6,
+        "label": "Beautiful Design and Clear Display"
+      },
+      "summary": "Reviewed Lenovo LOQ 15APH8 (5-star)",
+      "changes": [
+        {
+          "field": "Rating",
+          "from": "—",
+          "to": "★★★★★ (5/5)"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "at": "2026-11-09T06:58:46.065Z",
+      "source": "storefront",
+      "actor": {
+        "id": "customer:3",
+        "name": "Test User",
+        "email": "test@example.com"
+      },
+      "action": "created",
+      "entity": {
+        "type": "review",
+        "id": 7,
+        "label": "Good Laptop but Could Be Better"
+      },
+      "summary": "Reviewed Lenovo ThinkPad X13 Yoga (5-star)",
+      "changes": [
+        {
+          "field": "Rating",
+          "from": "—",
+          "to": "★★★★★ (5/5)"
+        }
+      ]
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "review",
+        "id": 7,
+        "label": "Good Laptop but Could Be Better"
+      },
+      "summary": "Showed Test User’s review on the home page",
+      "changes": [
+        {
+          "field": "On home page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T07:00:34.146Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 11
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "review",
+        "id": 6,
+        "label": "Beautiful Design and Clear Display"
+      },
+      "summary": "Showed Test User’s review on the home page",
+      "changes": [
+        {
+          "field": "On home page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T07:00:38.964Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 12
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "review",
+        "id": 5,
+        "label": "Perfect Laptop for Students"
+      },
+      "summary": "Showed Test User’s review on the home page",
+      "changes": [
+        {
+          "field": "On home page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T07:00:43.346Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 13
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "review",
+        "id": 4,
+        "label": "Great Value for the Price"
+      },
+      "summary": "Showed Test User’s review on the home page",
+      "changes": [
+        {
+          "field": "On home page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T07:00:47.783Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 14
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "review",
+        "id": 1,
+        "label": "About the products"
+      },
+      "summary": "Showed Test User’s review on the home page",
+      "changes": [
+        {
+          "field": "On home page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T07:12:32.563Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 15
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "review",
+        "id": 1,
+        "label": "About the products"
+      },
+      "summary": "Removed Test User’s review from the home page",
+      "changes": [
+        {
+          "field": "On home page",
+          "from": "Yes",
+          "to": "No"
+        }
+      ],
+      "at": "2026-11-09T07:12:40.512Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 16
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "review",
+        "id": 3,
+        "label": "Excellent Laptop with Smooth Performance"
+      },
+      "summary": "Showed Test User’s review on the home page",
+      "changes": [
+        {
+          "field": "On home page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T07:12:41.484Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 17
+    },
+    {
+      "action": "status-changed",
+      "entity": {
+        "type": "order",
+        "id": 7,
+        "label": "#LV-7"
+      },
+      "summary": "Marked #LV-7 processing",
+      "changes": [
+        {
+          "field": "Status",
+          "from": "Pending",
+          "to": "Processing"
+        }
+      ],
+      "at": "2026-11-09T09:04:13.897Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 18
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Hid WELCOME500 from the Offers page",
+      "changes": [
+        {
+          "field": "On Offers page",
+          "from": "Yes",
+          "to": "No"
+        }
+      ],
+      "at": "2026-11-09T10:07:16.396Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 19
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Advertised WELCOME500 on the Offers page",
+      "changes": [
+        {
+          "field": "On Offers page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T10:07:17.851Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 20
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Hid WELCOME500 from the Offers page",
+      "changes": [
+        {
+          "field": "On Offers page",
+          "from": "Yes",
+          "to": "No"
+        }
+      ],
+      "at": "2026-11-09T10:11:41.263Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 21
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Advertised WELCOME500 on the Offers page",
+      "changes": [
+        {
+          "field": "On Offers page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T10:11:41.854Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 22
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Hid WELCOME500 from the Offers page",
+      "changes": [
+        {
+          "field": "On Offers page",
+          "from": "Yes",
+          "to": "No"
+        }
+      ],
+      "at": "2026-11-09T10:14:52.819Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 23
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Advertised WELCOME500 on the Offers page",
+      "changes": [
+        {
+          "field": "On Offers page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T10:14:53.490Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 24
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Hid WELCOME500 from the Offers page",
+      "changes": [
+        {
+          "field": "On Offers page",
+          "from": "Yes",
+          "to": "No"
+        }
+      ],
+      "at": "2026-11-09T10:14:54.870Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 25
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Advertised WELCOME500 on the Offers page",
+      "changes": [
+        {
+          "field": "On Offers page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T10:14:55.709Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 26
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 2,
+        "label": "LAPPY5"
+      },
+      "summary": "Hid LAPPY5 from the Offers page",
+      "changes": [
+        {
+          "field": "On Offers page",
+          "from": "Yes",
+          "to": "No"
+        }
+      ],
+      "at": "2026-11-09T10:14:56.890Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 27
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 2,
+        "label": "LAPPY5"
+      },
+      "summary": "Advertised LAPPY5 on the Offers page",
+      "changes": [
+        {
+          "field": "On Offers page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T10:14:58.637Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 28
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Deactivated promo code WELCOME500",
+      "changes": [
+        {
+          "field": "Active",
+          "from": "Yes",
+          "to": "No"
+        }
+      ],
+      "at": "2026-11-09T10:21:36.234Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 29
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Activated promo code WELCOME500",
+      "changes": [
+        {
+          "field": "Active",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T10:21:38.036Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 30
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Deactivated promo code WELCOME500",
+      "changes": [
+        {
+          "field": "Active",
+          "from": "Yes",
+          "to": "No"
+        }
+      ],
+      "at": "2026-11-09T10:23:25.981Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 31
+    },
+    {
+      "id": 32,
+      "at": "2026-11-09T10:26:22.504Z",
+      "source": "storefront",
+      "actor": {
+        "id": "customer:3",
+        "name": "Test User",
+        "email": "test@example.com"
+      },
+      "action": "created",
+      "entity": {
+        "type": "order",
+        "id": 8,
+        "label": "#LV-8"
+      },
+      "summary": "Placed order #LV-8 · ৳117,620",
+      "changes": [
+        {
+          "field": "Items",
+          "from": "—",
+          "to": "1 pcs"
+        },
+        {
+          "field": "Total",
+          "from": "—",
+          "to": "৳117,620"
+        },
+        {
+          "field": "Payment",
+          "from": "—",
+          "to": "cod"
+        },
+        {
+          "field": "Delivery",
+          "from": "—",
+          "to": "express"
+        }
+      ]
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "content",
+        "id": "hero",
+        "label": "Hero banners"
+      },
+      "summary": "Updated Hero banners (slides, promoMs, promos)",
+      "at": "2026-11-09T11:38:36.605Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 33
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "settings",
+        "id": "branding",
+        "label": "Logo & branding"
+      },
+      "summary": "Changed the store logo",
+      "changes": [
+        {
+          "field": "Icon",
+          "from": "Default",
+          "to": "Custom image"
+        }
+      ],
+      "at": "2026-11-09T13:06:03.256Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev",
+        "avatarUrl": null
+      },
+      "id": 34
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "settings",
+        "id": "branding",
+        "label": "Logo & branding"
+      },
+      "summary": "Changed the store logo",
+      "changes": [
+        {
+          "field": "Icon",
+          "from": "Custom image",
+          "to": "Custom image"
+        }
+      ],
+      "at": "2026-11-09T13:06:32.145Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev",
+        "avatarUrl": null
+      },
+      "id": 35
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "settings",
+        "id": "branding",
+        "label": "Logo & branding"
+      },
+      "summary": "Changed the store logo",
+      "changes": [
+        {
+          "field": "Icon",
+          "from": "Custom image",
+          "to": "Custom image"
+        }
+      ],
+      "at": "2026-11-09T13:07:31.568Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev",
+        "avatarUrl": null
+      },
+      "id": 36
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "settings",
+        "id": "branding",
+        "label": "Logo & branding"
+      },
+      "summary": "Changed the store logo",
+      "changes": [
+        {
+          "field": "Icon",
+          "from": "Custom image",
+          "to": "Custom image"
+        }
+      ],
+      "at": "2026-11-09T13:31:10.391Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev",
+        "avatarUrl": null
+      },
+      "id": 37
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "settings",
+        "id": "branding",
+        "label": "Logo & branding"
+      },
+      "summary": "Changed the store logo",
+      "changes": [
+        {
+          "field": "Logo",
+          "from": "Custom image",
+          "to": "Custom image"
+        }
+      ],
+      "at": "2026-11-09T13:31:58.247Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev",
+        "avatarUrl": null
+      },
+      "id": 38
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "settings",
+        "id": "branding",
+        "label": "Logo & branding"
+      },
+      "summary": "Changed the store logo",
+      "changes": [
+        {
+          "field": "Logo",
+          "from": "Custom image",
+          "to": "Custom image"
+        },
+        {
+          "field": "Icon",
+          "from": "Custom image",
+          "to": "Custom image"
+        }
+      ],
+      "at": "2026-11-09T13:32:28.228Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev",
+        "avatarUrl": null
+      },
+      "id": 39
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "inventory",
+        "id": 4,
+        "label": "ThinkPad X13 Yoga"
+      },
+      "summary": "Stock corrected: ThinkPad X13 Yoga 1 → 5",
+      "changes": [
+        {
+          "field": "Stock",
+          "from": "1",
+          "to": "5"
+        }
+      ],
+      "at": "2026-11-09T13:48:41.524Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev",
+        "avatarUrl": null
+      },
+      "id": 40
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "inventory",
+        "id": 3,
+        "label": "Surface Laptop 4"
+      },
+      "summary": "Stock corrected: Surface Laptop 4 4 → 1",
+      "changes": [
+        {
+          "field": "Stock",
+          "from": "4",
+          "to": "1"
+        }
+      ],
+      "at": "2026-11-09T13:48:58.761Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev",
+        "avatarUrl": null
+      },
+      "id": 41
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "inventory",
+        "id": 3,
+        "label": "Surface Laptop 4"
+      },
+      "summary": "Stock corrected: Surface Laptop 4 1 → 6",
+      "changes": [
+        {
+          "field": "Stock",
+          "from": "1",
+          "to": "6"
+        }
+      ],
+      "at": "2026-11-09T13:49:09.319Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev",
+        "avatarUrl": null
+      },
+      "id": 42
+    }
+  ],
+  "productReviews": [
+    {
+      "productId": 1,
+      "userId": 3,
+      "name": "Test User",
+      "initials": "TU",
+      "rating": 5,
+      "subject": "About the products",
+      "comment": "The product was extremely good",
+      "createdAt": "2026-11-09T06:22:23.893Z",
+      "id": 1,
+      "featured": false
+    },
+    {
+      "productId": 1,
+      "userId": 3,
+      "name": "Test User",
+      "initials": "TU",
+      "rating": 4,
+      "subject": "product review",
+      "comment": "this review is for testing purpose",
+      "createdAt": "2026-11-09T06:26:03.651Z",
+      "id": 2,
+      "featured": true
+    },
+    {
+      "productId": 2,
+      "userId": 3,
+      "name": "Test User",
+      "initials": "TU",
+      "rating": 5,
+      "subject": "Excellent Laptop with Smooth Performance",
+      "comment": "The laptop works perfectly and delivers excellent performance. It handles multitasking smoothly, boots quickly, and has a great display. The build quality is also impressive. Overall, I'm very satisfied with this purchase.",
+      "createdAt": "2026-11-09T06:56:59.412Z",
+      "id": 3,
+      "featured": true
+    },
+    {
+      "productId": 7,
+      "userId": 3,
+      "name": "Test User",
+      "initials": "TU",
+      "rating": 5,
+      "subject": "Great Value for the Price",
+      "comment": "I'm really happy with this laptop. It offers good performance for its price, has a decent battery life, and looks stylish. Perfect for everyday work, browsing, and entertainment.",
+      "createdAt": "2026-11-09T06:57:25.361Z",
+      "id": 4,
+      "featured": true
+    },
+    {
+      "productId": 12,
+      "userId": 3,
+      "name": "Test User",
+      "initials": "TU",
+      "rating": 4,
+      "subject": "Perfect Laptop for Students",
+      "comment": "This laptop is a great choice for students. It's lightweight, easy to carry, and handles daily tasks like assignments, browsing, and online classes without any issues. Highly recommended.",
+      "createdAt": "2026-11-09T06:57:54.483Z",
+      "id": 5,
+      "featured": true
+    },
+    {
+      "productId": 12,
+      "userId": 3,
+      "name": "Test User",
+      "initials": "TU",
+      "rating": 5,
+      "subject": "Beautiful Design and Clear Display",
+      "comment": "The laptop has a sleek design and a beautiful display. The keyboard is comfortable to use, and everything feels well-built. It's a great option for both work and personal use.",
+      "createdAt": "2026-11-09T06:58:18.645Z",
+      "id": 6,
+      "featured": true
+    },
+    {
+      "productId": 4,
+      "userId": 3,
+      "name": "Test User",
+      "initials": "TU",
+      "rating": 5,
+      "subject": "Good Laptop but Could Be Better",
+      "comment": "The overall experience is good. Performance is acceptable for regular tasks, and the design is nice. However, the battery life could be better. Still, it's a decent laptop for everyday use.",
+      "createdAt": "2026-11-09T06:58:46.006Z",
+      "id": 7,
+      "featured": true
     }
   ]
 }
