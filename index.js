@@ -3,6 +3,7 @@ const path = require("path");
 const jsonServer = require("json-server");
 const { createStorefrontAudit } = require("./storefront-audit");
 const { syncAllRatings, captureRatingTargets, applyRatingSync } = require("./product-ratings");
+const { captureStockTargets, applyOrderStock } = require("./order-stock");
 
 // DB_FILE env lets you run against a copy (e.g. to try changes without touching db.json).
 const DB_FILE = process.env.DB_FILE || path.join(__dirname, "db.json");
@@ -59,6 +60,8 @@ const middlewares = jsonServer.defaults();
 // Product rating/reviewCount are derived from productReviews (see product-ratings.js).
 syncAllRatings(router.db);
 router.render = (req, res) => {
+  // Orders take/return product stock (see order-stock.js).
+  applyOrderStock(req, res, router.db);
   applyRatingSync(req, res, router.db);
   res.jsonp(res.locals.data);
 };
@@ -70,6 +73,7 @@ server.use(jsonServer.bodyParser);
 // Customer activity → auditLogs (admin actions are logged by the dashboard itself).
 server.use(createStorefrontAudit(router));
 server.use(captureRatingTargets(router));
+server.use(captureStockTargets(router));
 server.use(router);
 
 server.listen(port, "0.0.0.0", () => {
