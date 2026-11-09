@@ -1,21 +1,28 @@
 {
   "products": [
     {
-      "id": 1,
       "name": "Acer Aspire 7 A715-79G",
       "shortName": "Acer Aspire 7",
       "brand": "Acer",
+      "condition": "Brand New",
+      "availability": "in-stock",
+      "price": 125000,
+      "oldPrice": 128000,
+      "image": "https://res.cloudinary.com/dkpwkyimf/image/upload/v1793874108/lappy-valley/products/yqqwi0gt9rljtxcke10k.png",
+      "images": [
+        "https://res.cloudinary.com/dkpwkyimf/image/upload/v1793874108/lappy-valley/products/yqqwi0gt9rljtxcke10k.png",
+        "https://res.cloudinary.com/dkpwkyimf/image/upload/v1793874500/lappy-valley/products/lr9iszodjbi6k4exg2gp.avif",
+        "https://res.cloudinary.com/dkpwkyimf/image/upload/v1793874518/lappy-valley/products/mn2hfvqkwozjfkgnuknn.avif",
+        "https://res.cloudinary.com/dkpwkyimf/image/upload/v1793874532/lappy-valley/products/ydsks8g0l3wncfunj9dt.avif",
+        "https://res.cloudinary.com/dkpwkyimf/image/upload/v1793874540/lappy-valley/products/txhrkeynzotezrwym4dd.avif"
+      ],
       "processor": "Core 5",
-      "displaySize": 15.6,
-      "displayType": "IPS",
+      "graphics": "NVIDIA RTX 3050",
       "ram": 16,
       "ssd": 512,
       "hdd": 0,
-      "graphics": "NVIDIA RTX 3050",
-      "features": [
-        "Backlit Keyboard"
-      ],
-      "availability": "in-stock",
+      "displaySize": 15.6,
+      "displayType": "IPS",
       "spec": "Core 5 210H · RTX 3050 4GB · 16GB / 512GB · 15.6\" FHD Gaming",
       "specs": [
         "Core 5 210H",
@@ -23,20 +30,41 @@
         "16GB RAM · 512GB SSD",
         "15.6\" FHD"
       ],
-      "condition": "Brand New",
-      "price": 125000,
-      "oldPrice": 128000,
-      "image": "/images/products/acer-aspire-7-a715-79g.png",
-      "isNewArrival": true,
-      "isStudentBudget": true,
-      "createdAt": "2026-11-03T10:00:00.000Z",
-      "isGaming": true,
+      "features": [
+        "Backlit Keyboard"
+      ],
       "hardware": {
         "cpu": "Core 5 210H",
         "gpu": "RTX 3050 · 4GB",
         "ram": "16GB",
         "ssd": "512GB"
-      }
+      },
+      "isNewArrival": true,
+      "isStudentBudget": true,
+      "isGaming": true,
+      "id": 1,
+      "createdAt": "2026-11-03T10:00:00.000Z",
+      "stock": 10,
+      "lowStockThreshold": 3,
+      "sku": "",
+      "stockHistory": [
+        {
+          "change": 5,
+          "stock": 5,
+          "reason": "correction",
+          "at": "2026-11-05T12:36:56.728Z",
+          "by": "admin@lappyvalley.dev"
+        },
+        {
+          "change": 5,
+          "stock": 10,
+          "reason": "correction",
+          "at": "2026-11-05T12:38:07.525Z",
+          "by": "admin@lappyvalley.dev"
+        }
+      ],
+      "rating": 4.5,
+      "reviewCount": 2
     },
     {
       "id": 2,
@@ -70,7 +98,42 @@
       "isNewArrival": true,
       "isStudentBudget": false,
       "createdAt": "2026-11-02T10:00:00.000Z",
-      "isGaming": false
+      "isGaming": false,
+      "stock": 6,
+      "lowStockThreshold": 3,
+      "sku": "",
+      "stockHistory": [
+        {
+          "change": 3,
+          "stock": 3,
+          "reason": "correction",
+          "at": "2026-11-05T12:40:22.929Z",
+          "by": "admin@lappyvalley.dev"
+        },
+        {
+          "change": 1,
+          "stock": 4,
+          "reason": "correction",
+          "at": "2026-11-05T12:42:42.519Z",
+          "by": "admin@lappyvalley.dev"
+        },
+        {
+          "change": 1,
+          "stock": 5,
+          "reason": "correction",
+          "at": "2026-11-05T12:42:57.920Z",
+          "by": "admin@lappyvalley.dev"
+        },
+        {
+          "change": 1,
+          "stock": 6,
+          "reason": "correction",
+          "at": "2026-11-05T12:43:08.929Z",
+          "by": "admin@lappyvalley.dev"
+        }
+      ],
+      "rating": 5,
+      "reviewCount": 1
     },
     {
       "id": 3,
@@ -104,7 +167,42 @@
       "isNewArrival": true,
       "isStudentBudget": true,
       "createdAt": "2026-11-01T10:00:00.000Z",
-      "isGaming": false
+      "isGaming": false,
+      "stock": 6,
+      "lowStockThreshold": 3,
+      "sku": "",
+      "stockHistory": [
+        {
+          "change": 3,
+          "stock": 3,
+          "reason": "correction",
+          "at": "2026-11-05T12:40:40.442Z",
+          "by": "admin@lappyvalley.dev"
+        },
+        {
+          "change": 1,
+          "stock": 4,
+          "reason": "restock",
+          "at": "2026-11-05T12:50:46.984Z",
+          "by": "admin@lappyvalley.dev"
+        },
+        {
+          "change": -3,
+          "stock": 1,
+          "reason": "correction",
+          "at": "2026-11-09T13:48:58.652Z",
+          "by": "admin@lappyvalley.dev"
+        },
+        {
+          "change": 5,
+          "stock": 6,
+          "reason": "correction",
+          "at": "2026-11-09T13:49:09.245Z",
+          "by": "admin@lappyvalley.dev"
+        }
+      ],
+      "rating": 0,
+      "reviewCount": 0
     },
     {
       "id": 4,
@@ -139,7 +237,28 @@
       "isNewArrival": true,
       "isStudentBudget": false,
       "createdAt": "2026-10-31T10:00:00.000Z",
-      "isGaming": false
+      "isGaming": false,
+      "stock": 5,
+      "lowStockThreshold": 3,
+      "sku": "",
+      "stockHistory": [
+        {
+          "change": 1,
+          "stock": 1,
+          "reason": "correction",
+          "at": "2026-11-05T12:41:37.287Z",
+          "by": "admin@lappyvalley.dev"
+        },
+        {
+          "change": 4,
+          "stock": 5,
+          "reason": "correction",
+          "at": "2026-11-09T13:48:41.402Z",
+          "by": "admin@lappyvalley.dev"
+        }
+      ],
+      "rating": 5,
+      "reviewCount": 1
     },
     {
       "id": 5,
@@ -173,7 +292,21 @@
       "isNewArrival": true,
       "isStudentBudget": false,
       "createdAt": "2026-10-30T10:00:00.000Z",
-      "isGaming": false
+      "isGaming": false,
+      "stock": 5,
+      "lowStockThreshold": 3,
+      "sku": "",
+      "stockHistory": [
+        {
+          "change": 5,
+          "stock": 5,
+          "reason": "correction",
+          "at": "2026-11-05T12:42:11.054Z",
+          "by": "admin@lappyvalley.dev"
+        }
+      ],
+      "rating": 0,
+      "reviewCount": 0
     },
     {
       "id": 6,
@@ -208,7 +341,35 @@
       "isNewArrival": false,
       "isStudentBudget": true,
       "createdAt": "2026-10-20T10:00:00.000Z",
-      "isGaming": false
+      "isGaming": false,
+      "stock": 6,
+      "lowStockThreshold": 3,
+      "sku": "",
+      "stockHistory": [
+        {
+          "change": 1,
+          "stock": 1,
+          "reason": "correction",
+          "at": "2026-11-05T12:41:49.768Z",
+          "by": "admin@lappyvalley.dev"
+        },
+        {
+          "change": 3,
+          "stock": 4,
+          "reason": "correction",
+          "at": "2026-11-05T12:42:27.072Z",
+          "by": "admin@lappyvalley.dev"
+        },
+        {
+          "change": 2,
+          "stock": 6,
+          "reason": "restock",
+          "at": "2026-11-05T12:51:20.782Z",
+          "by": "admin@lappyvalley.dev"
+        }
+      ],
+      "rating": 0,
+      "reviewCount": 0
     },
     {
       "id": 7,
@@ -239,7 +400,21 @@
       "isNewArrival": false,
       "isStudentBudget": true,
       "createdAt": "2026-10-19T10:00:00.000Z",
-      "isGaming": false
+      "isGaming": false,
+      "stock": 10,
+      "lowStockThreshold": 3,
+      "sku": "",
+      "stockHistory": [
+        {
+          "change": 10,
+          "stock": 10,
+          "reason": "correction",
+          "at": "2026-11-05T12:43:29.394Z",
+          "by": "admin@lappyvalley.dev"
+        }
+      ],
+      "rating": 5,
+      "reviewCount": 1
     },
     {
       "id": 8,
@@ -272,7 +447,21 @@
       "isNewArrival": false,
       "isStudentBudget": true,
       "createdAt": "2026-10-18T10:00:00.000Z",
-      "isGaming": false
+      "isGaming": false,
+      "stock": 9,
+      "lowStockThreshold": 3,
+      "sku": "",
+      "stockHistory": [
+        {
+          "change": 9,
+          "stock": 9,
+          "reason": "correction",
+          "at": "2026-11-05T12:43:59.241Z",
+          "by": "admin@lappyvalley.dev"
+        }
+      ],
+      "rating": 0,
+      "reviewCount": 0
     },
     {
       "id": 9,
@@ -312,7 +501,9 @@
       "isNewArrival": false,
       "isStudentBudget": false,
       "isGaming": true,
-      "createdAt": "2026-10-17T10:00:00.000Z"
+      "createdAt": "2026-10-17T10:00:00.000Z",
+      "rating": 0,
+      "reviewCount": 0
     },
     {
       "id": 10,
@@ -351,7 +542,9 @@
       "isNewArrival": false,
       "isStudentBudget": false,
       "isGaming": true,
-      "createdAt": "2026-10-16T10:00:00.000Z"
+      "createdAt": "2026-10-16T10:00:00.000Z",
+      "rating": 0,
+      "reviewCount": 0
     },
     {
       "id": 11,
@@ -390,7 +583,9 @@
       "isNewArrival": false,
       "isStudentBudget": false,
       "isGaming": true,
-      "createdAt": "2026-10-15T10:00:00.000Z"
+      "createdAt": "2026-10-15T10:00:00.000Z",
+      "rating": 0,
+      "reviewCount": 0
     },
     {
       "id": 12,
@@ -426,7 +621,9 @@
       "isNewArrival": false,
       "isStudentBudget": false,
       "isGaming": true,
-      "createdAt": "2026-10-14T10:00:00.000Z"
+      "createdAt": "2026-10-14T10:00:00.000Z",
+      "rating": 4.5,
+      "reviewCount": 2
     }
   ],
   "contactMessages": [],
@@ -476,7 +673,8 @@
       "code": "WELCOME500",
       "type": "fixed",
       "value": 500,
-      "featured": true
+      "featured": true,
+      "active": false
     },
     {
       "id": 2,
@@ -535,9 +733,16 @@
         "deliveryFee": 120,
         "total": 251120
       },
-      "status": "Pending",
+      "status": "Cancelled",
       "createdAt": "2026-11-04T08:58:05.577Z",
-      "id": 1
+      "id": 1,
+      "updatedAt": "2026-11-05T16:39:45.215Z",
+      "statusHistory": [
+        {
+          "status": "Cancelled",
+          "at": "2026-11-05T16:39:45.215Z"
+        }
+      ]
     },
     {
       "userId": 3,
@@ -633,9 +838,16 @@
         "deliveryFee": 120,
         "total": 230620
       },
-      "status": "Pending",
+      "status": "Processing",
       "createdAt": "2026-11-04T17:52:54.099Z",
-      "id": 3
+      "id": 3,
+      "updatedAt": "2026-11-05T16:39:51.913Z",
+      "statusHistory": [
+        {
+          "status": "Processing",
+          "at": "2026-11-05T16:39:51.913Z"
+        }
+      ]
     },
     {
       "userId": 3,
@@ -778,9 +990,111 @@
         "deliveryFee": 120,
         "total": 125120
       },
-      "status": "Pending",
+      "status": "Delivered",
       "createdAt": "2026-11-04T19:36:57.741Z",
-      "id": 6
+      "id": 6,
+      "updatedAt": "2026-11-05T16:39:03.324Z",
+      "statusHistory": [
+        {
+          "status": "Processing",
+          "at": "2026-11-05T12:15:06.412Z"
+        },
+        {
+          "status": "Delivered",
+          "at": "2026-11-05T16:39:03.324Z"
+        }
+      ]
+    },
+    {
+      "userId": 3,
+      "customer": {
+        "firstName": "Test",
+        "lastName": "User",
+        "address": "Molla bari road, toll plaza.",
+        "mobile": "01800000000",
+        "email": "test@example.com",
+        "city": "Rupatoli",
+        "zone": "Dhaka",
+        "comment": ""
+      },
+      "delivery": {
+        "method": "express",
+        "fee": 120
+      },
+      "payment": "online",
+      "transaction": {
+        "channel": "card",
+        "provider": "visa",
+        "providerName": "Visa",
+        "transactionId": "LVMW3WP83C92J3",
+        "account": "**** 4242",
+        "paidAt": "2026-11-05T18:56:07.992Z"
+      },
+      "items": [
+        {
+          "productId": 1,
+          "name": "Acer Aspire 7 A715-79G",
+          "price": 125000,
+          "quantity": 2,
+          "image": "https://res.cloudinary.com/dkpwkyimf/image/upload/v1793874108/lappy-valley/products/yqqwi0gt9rljtxcke10k.png"
+        }
+      ],
+      "totals": {
+        "subtotal": 256000,
+        "discount": 6000,
+        "couponCode": null,
+        "couponDiscount": 0,
+        "deliveryFee": 120,
+        "total": 250120
+      },
+      "status": "Processing",
+      "createdAt": "2026-11-05T18:56:08.696Z",
+      "id": 7,
+      "updatedAt": "2026-11-09T09:04:13.832Z",
+      "statusHistory": [
+        {
+          "status": "Processing",
+          "at": "2026-11-09T09:04:13.832Z"
+        }
+      ]
+    },
+    {
+      "userId": 3,
+      "customer": {
+        "firstName": "Test",
+        "lastName": "User",
+        "address": "Molla bari road, toll plaza.",
+        "mobile": "01800000000",
+        "email": "test@example.com",
+        "city": "Rupatoli",
+        "zone": "Dhaka",
+        "comment": ""
+      },
+      "delivery": {
+        "method": "express",
+        "fee": 120
+      },
+      "payment": "cod",
+      "items": [
+        {
+          "productId": 6,
+          "name": "Dell Latitude 7450",
+          "price": 117500,
+          "quantity": 1,
+          "image": "/images/products/dell-latitude-7450.png"
+        }
+      ],
+      "totals": {
+        "subtotal": 125500,
+        "discount": 8000,
+        "couponCode": null,
+        "couponDiscount": 0,
+        "deliveryFee": 120,
+        "total": 117620
+      },
+      "status": "Pending",
+      "createdAt": "2026-11-09T10:26:22.329Z",
+      "id": 8
     }
   ],
   "users": [
@@ -943,6 +1257,1955 @@
       "category": "Buying guide",
       "platform": "YouTube",
       "url": "https://www.youtube.com/watch?v=jEM4EyQiPJo"
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@lappyvalley.dev",
+      "role": "super-admin",
+      "salt": "15358ef87dd9e6f8267908d8f2365054",
+      "passwordHash": "489c3c73f99ab40cd6b07cd5062a3e958db4632134614096e517b205b9d61725",
+      "avatarUrl": null,
+      "createdAt": "2026-11-05T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Support Agent",
+      "email": "support@lappyvalley.dev",
+      "role": "support",
+      "salt": "f47131a0b98146e8b3482390a0b6bcad",
+      "passwordHash": "dbf2a3c53343311f37ca44ff78f5ec0a0747c35836aed3dbf784267a0874209a",
+      "avatarUrl": null,
+      "createdAt": "2026-11-05T00:00:00.000Z"
+    }
+  ],
+  "settings": {
+    "storeName": "Lappy Valley",
+    "supportEmail": "info@lappyvalley.com",
+    "supportPhone": "+880 1901-643834"
+  },
+  "content": [
+    {
+      "id": "terms",
+      "title": {
+        "en": "Terms & Conditions",
+        "bn": "শর্তাবলী"
+      },
+      "subtitle": {
+        "en": "Dear Customer, The Return and Refund policy of Lappy Valley are given below –",
+        "bn": "ল্যাপী ভ্যালি এর রিটার্ন ও রিফান্ড পলিসি নিম্নরূপ –"
+      },
+      "bilingual": true,
+      "defaultOpenId": "delivery",
+      "highlights": [
+        {
+          "icon": "Truck",
+          "value": {
+            "en": "5 / 10 days",
+            "bn": "৫ / ১০ দিন"
+          },
+          "label": {
+            "en": "Delivery time",
+            "bn": "ডেলিভারি সময়"
+          }
+        },
+        {
+          "icon": "Phone",
+          "value": {
+            "en": "24 hours",
+            "bn": "২৪ ঘন্টা"
+          },
+          "label": {
+            "en": "Online orders: report within 24 hours",
+            "bn": "অনলাইন অর্ডার: ২৪ ঘন্টার মধ্যে জানান"
+          }
+        },
+        {
+          "icon": "RotateCcw",
+          "value": {
+            "en": "3–10 working days",
+            "bn": "৩–১০ কার্যদিবস"
+          },
+          "label": {
+            "en": "Refund time",
+            "bn": "রিফান্ডের সময়"
+          }
+        },
+        {
+          "icon": "Mail",
+          "value": {
+            "en": "Email us first",
+            "bn": "আগে ইমেইল করুন"
+          },
+          "label": {
+            "en": "How to start a return",
+            "bn": "রিটার্ন শুরু করবেন যেভাবে"
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "delivery",
+          "icon": "Truck",
+          "title": {
+            "en": "Delivery time",
+            "bn": "ডেলিভারি সময়"
+          },
+          "tag": {
+            "en": "5 / 10 days",
+            "bn": "৫ / ১০ দিন"
+          },
+          "body": {
+            "en": "We deliver within 5 days inside Dhaka and 10 days outside Dhaka",
+            "bn": "আমরা ঢাকার ভিতরে ৫ দিনের মধ্যে এবং ঢাকার বাইরে ১০ দিনের মধ্যে ডেলিভারি করি"
+          }
+        },
+        {
+          "id": "shop",
+          "icon": "Store",
+          "title": {
+            "en": "Buying from our outlets",
+            "bn": "আউটলেট থেকে ক্রয়"
+          },
+          "tag": {
+            "en": "Check in store",
+            "bn": "শপে চেক করুন"
+          },
+          "body": {
+            "en": "If a customer is buying the products from our shops, then please make sure to check the products in front of our Sales Executive. Later, if any problems occurs than the customer will not be entitled to any changes but will be given services based on the products provided description.(Warranty)",
+            "bn": "আউট লেট থেকে পণ্য ক্রয়ের ক্ষেত্রে অবশ্যই শপে বিক্রয়কর্মীর সামনে চেক করে কিনবেন। পরবর্তীতে সমস্যা হলে যদি পণ্যে ওয়ারেন্টি থাকে তবে তা ওয়ারেন্টির আওতাভুক্ত হবে।"
+          }
+        },
+        {
+          "id": "online",
+          "icon": "Phone",
+          "title": {
+            "en": "Online orders: report within 24 hours",
+            "bn": "অনলাইন অর্ডার: ২৪ ঘন্টার মধ্যে জানান"
+          },
+          "tag": {
+            "en": "24 hours",
+            "bn": "২৪ ঘন্টা"
+          },
+          "body": {
+            "en": "In the case of ordering online, after receiving the product, if any manufacturing issues or problems are noticed or discovered than customer has to inform us within 24 hours via our hotline service.",
+            "bn": "অনলাইন অর্ডারের ক্ষেত্রে পণ্য ডেলিভারি পাবার পর পণ্যে মেনুফেকচারিং ত্রুটি থাকলে আমাদের হটলাইনে ২৪ ঘন্টার মধ্যে জানাতে হবে।"
+          }
+        },
+        {
+          "id": "defect",
+          "icon": "Wrench",
+          "title": {
+            "en": "Replacing a defective product",
+            "bn": "ত্রুটিযুক্ত পণ্য পরিবর্তন"
+          },
+          "tag": {
+            "en": "At our shops",
+            "bn": "আমাদের শপে"
+          },
+          "body": {
+            "en": "If a customer received a manufacturing defected product than the customer has to visit any of our shops where our specialists will review the product first and then take the necessary steps to changing the product if it is in need of replacement.",
+            "bn": "ত্রুটিযুক্ত পণ্য আমাদের স্টোর থেকে পরিবর্তন করা যাবে। এক্ষেত্রে আমাদের এক্সপার্টগন পণ্যে ত্রুটি পর্যবেক্ষণ করে তা পরিবর্তন করার পদক্ষেপ গ্রহন করবেন।"
+          }
+        },
+        {
+          "id": "swap",
+          "icon": "ArrowLeftRight",
+          "title": {
+            "en": "Replacement through delivery",
+            "bn": "ডেলিভারির মাধ্যমে পরিবর্তন"
+          },
+          "tag": {
+            "en": "৳200 in Dhaka",
+            "bn": "৩০০/- টাকা"
+          },
+          "body": {
+            "en": "If a customer wants to change the defected product through our delivery service, then a charge Of TK. 200/- has to be paid as replacement charge inside Dhaka and if out of Dhaka, only the Courier charge is applicable.",
+            "bn": "ক্রেতা যদি ডেলিভারি ম্যান এর মাধ্যমে ত্রুটিযুক্ত পণ্য পরিবর্তন করতে ইচ্ছুক থাকেন অথবা পণ্য পরিবর্তন করতে চান তবে ৩০০/- টাকা পরিবর্তন চার্জ প্রযোজ্য হবে। ঢাকার বাইরের ক্ষেত্রে শুধুমাত্র কুরিয়ার চার্জ প্রযোজ্য হবে। পণ্য আনার পর যদি পণ্য ভাঙ্গা অথবা পোড়া/ জ্বলা অবস্থায় পাওয়া যায় তবে সেই পণ্যের সম্পূর্ণ দায়িক্ত ক্রেতাকে বহন করতে হবে।"
+          }
+        },
+        {
+          "id": "no-change",
+          "icon": "Ban",
+          "title": {
+            "en": "No returns for change of mind",
+            "bn": "মত পরিবর্তনে ফেরত নয়"
+          },
+          "tag": {
+            "en": "Non-returnable",
+            "bn": "ফেরতযোগ্য নয়"
+          },
+          "body": {
+            "en": "If a Customer is buying any product from our Website after reading the description and provided information’s about the particular product and is received successfully without any faults and later if the product is not compatible with your setup or if you do not want it anymore, then you will not be allowed to change or return the product.",
+            "bn": "ল্যাপী ভ্যালি এর ওয়েবসাইটে থাকা বিবরণী দেখে ক্রয়ক্রিত পণ্য ডেলিভারি কর্মী থেকে রিসিভ করার পর তা আপনার নির্দিষ্ট ডিভাইসে সাপোর্ট করছে না অথবা তা এখন আর কিনতে ইচ্ছুক নন, এই জাতিয় কোন কারনে পণ্য ফেরত অথবা পরিবর্তন বা গ্রহনযোগ্য নয়।"
+          }
+        },
+        {
+          "id": "courier",
+          "icon": "Package",
+          "title": {
+            "en": "Damaged courier packages",
+            "bn": "কুরিয়ারে ক্ষতিগ্রস্ত পণ্য"
+          },
+          "tag": {
+            "en": "Don’t accept it",
+            "bn": "রিসিভ করবেন না"
+          },
+          "body": {
+            "en": "If customers found broken or packet damaged product then we are requesting not to receive the product from courier service. If the customer receives courier damaged product then he/she have to take his/her own liability and any kind of complaint won’t be acceptable.",
+            "bn": "কুরিয়ার এর ক্ষেত্রে ক্রেতা অবশ্যই পণ্য ভাঙ্গা থাকলে অথবা প্যাকেট ছেঁড়া থাকলে কুরিয়ার থেকে পণ্য রিসিভ করবে না। কুরিয়ারে ক্ষতিগ্রস্ত পণ্য ক্রেতা রিসিভ করলে তা নিজ দায়িত্বে করতে হবে এবং এই ব্যাপারে পরে কোন অভিযোগ গ্রহণযোগ্য হবে না।"
+          }
+        },
+        {
+          "id": "refund",
+          "icon": "RotateCcw",
+          "title": {
+            "en": "Refund time",
+            "bn": "রিফান্ডের সময়"
+          },
+          "tag": {
+            "en": "3–10 working days",
+            "bn": "৩–১০ কার্যদিবস"
+          },
+          "body": {
+            "en": "With specific reasoning’s, product(s) will be allowed to be returned and refunded back to you within 3 to 10 working days and in the case of online purchase, the procedure may take longer to execute.",
+            "bn": "নির্দিষ্ট কারণে পণ্য রিটার্ন দেয়ার পর তার মূল্য রিফান্ড করতে ৩ থেকে ১০ কার্যদিবস বা অনলাইন পেমেন্টের ক্ষেত্রে আরও বেশি সময় লাগতে পারে।"
+          }
+        },
+        {
+          "id": "charge",
+          "icon": "CreditCard",
+          "title": {
+            "en": "Refund charge",
+            "bn": "রিফান্ড চার্জ"
+          },
+          "tag": {
+            "en": "bKash / Online / POS",
+            "bn": "বিকাশ / অনলাইন / POS"
+          },
+          "body": {
+            "en": "Refund charge applicable for Bkash / Online / POS payment refund.",
+            "bn": "বিকাশ / অনলাইন / POS পেমেন্ট রিফান্ডের ক্ষেত্রে রিফান্ড চার্জ প্রযোজ্য ।"
+          }
+        },
+        {
+          "id": "start",
+          "icon": "Mail",
+          "title": {
+            "en": "How to start a return",
+            "bn": "রিটার্ন শুরু করবেন যেভাবে"
+          },
+          "tag": {
+            "en": "Email us first",
+            "bn": "আগে ইমেইল করুন"
+          },
+          "body": {
+            "en": "To start a return, you can contact us at {email}. If your return is accepted, we’ll send you a return shipping label, as well as instructions on how and where to send your package. Items sent back to us without first requesting a return will not be accepted.\n\nYou can always contact us for any return question at {email}",
+            "bn": "রিটার্ন শুরু করতে {email} এ ইমেইল করুন। রিটার্ন গৃহীত হলে আমরা আপনাকে একটি রিটার্ন শিপিং লেবেল এবং কোথায় ও কীভাবে পণ্য পাঠাবেন তার নির্দেশনা পাঠাব। আগে রিটার্নের অনুরোধ না করে পাঠানো পণ্য গ্রহণ করা হবে না।"
+          }
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": {
+        "en": "Privacy Policy"
+      },
+      "subtitle": {
+        "en": "Your privacy at a glance — open any section for the full details."
+      },
+      "bilingual": false,
+      "defaultOpenId": "collect",
+      "highlights": [
+        {
+          "icon": "Database",
+          "value": {
+            "en": "What we collect"
+          },
+          "label": {
+            "en": "Comment details, IP address, browser info, and the profile you create."
+          }
+        },
+        {
+          "icon": "Cookie",
+          "value": {
+            "en": "Cookies"
+          },
+          "label": {
+            "en": "Login cookies last 2 days; comment and display cookies last 1 year."
+          }
+        },
+        {
+          "icon": "ShieldCheck",
+          "value": {
+            "en": "Your rights"
+          },
+          "label": {
+            "en": "Ask us to export or erase the personal data we hold about you."
+          }
+        },
+        {
+          "icon": "Share2",
+          "value": {
+            "en": "Who sees it"
+          },
+          "label": {
+            "en": "Website administrators. Comments may go through a spam check."
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "who",
+          "icon": "Store",
+          "title": {
+            "en": "Who we are"
+          },
+          "tag": {
+            "en": "The basics"
+          },
+          "body": {
+            "en": "Our website address is: [https://lappyvalley.com](https://lappyvalley.com)."
+          }
+        },
+        {
+          "id": "collect",
+          "icon": "Database",
+          "title": {
+            "en": "What personal data we collect and why we collect it"
+          },
+          "tag": {
+            "en": "Comments, media, forms"
+          },
+          "body": {
+            "en": "### Comments\n\nWhen visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.\n\nAn anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: [https://automattic.com/privacy/](https://automattic.com/privacy/). After approval of your comment, your profile picture is visible to the public in the context of your comment.\n\n### Media\n\nIf you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.\n\n### Contact forms\n\n_[Add details here]_\n\n### Embedded content from other websites\n\nArticles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.\n\nThese websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.\n\n### Analytics\n\n_[Add details here]_"
+          }
+        },
+        {
+          "id": "cookies",
+          "icon": "Cookie",
+          "title": {
+            "en": "Cookies"
+          },
+          "tag": {
+            "en": "How long they last"
+          },
+          "body": {
+            "en": "If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.\n\nIf you visit our login page, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.\n\nWhen you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select “Remember Me”, your login will persist for two weeks. If you log out of your account, the login cookies will be removed.\n\nIf you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day."
+          }
+        },
+        {
+          "id": "share",
+          "icon": "Share2",
+          "title": {
+            "en": "Who we share your data with and How long we retain your data"
+          },
+          "tag": {
+            "en": "Retention"
+          },
+          "body": {
+            "en": "If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.\n\nFor users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information."
+          }
+        },
+        {
+          "id": "rights",
+          "icon": "ShieldCheck",
+          "title": {
+            "en": "What rights you have over your data"
+          },
+          "tag": {
+            "en": "Export or erase"
+          },
+          "body": {
+            "en": "If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes."
+          }
+        },
+        {
+          "id": "send",
+          "icon": "Send",
+          "title": {
+            "en": "Where we send your data"
+          },
+          "tag": {
+            "en": "Spam checks"
+          },
+          "body": {
+            "en": "Visitor comments may be checked through an automated spam detection service."
+          }
+        },
+        {
+          "id": "contact",
+          "icon": "Mail",
+          "title": {
+            "en": "Your contact information"
+          },
+          "tag": {
+            "en": "Reach us"
+          },
+          "body": {
+            "en": "Email {email} or call {hotline}. You can also visit any of our three outlets — Uttara, Jamuna Future Park or Bashundhara City."
+          }
+        },
+        {
+          "id": "more",
+          "icon": "Info",
+          "title": {
+            "en": "Additional information"
+          },
+          "tag": {
+            "en": "To be completed"
+          },
+          "body": {
+            "en": "### How we protect your data\n\n_[Add details here]_\n\n### What data breach procedures we have in place\n\n_[Add details here]_\n\n### What third parties we receive data from\n\n_[Add details here]_\n\n### What automated decision making and/or profiling we do with user data\n\n_[Add details here]_\n\n### Industry regulatory disclosure requirements\n\n_[Add details here]_"
+          }
+        }
+      ]
+    },
+    {
+      "id": "refund",
+      "title": {
+        "en": "Refund & Service Policy"
+      },
+      "subtitle": {
+        "en": "The short version first — tap any section below for the full details."
+      },
+      "bilingual": false,
+      "defaultOpenId": "refund",
+      "highlights": [
+        {
+          "icon": "Wrench",
+          "value": {
+            "en": "Lifetime"
+          },
+          "label": {
+            "en": "Complimentary service for all laptops"
+          }
+        },
+        {
+          "icon": "RotateCcw",
+          "value": {
+            "en": "7–10 days"
+          },
+          "label": {
+            "en": "Working days to process your refund"
+          }
+        },
+        {
+          "icon": "Package",
+          "value": {
+            "en": "At delivery"
+          },
+          "label": {
+            "en": "Check your laptop before the courier leaves"
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "service",
+          "icon": "Wrench",
+          "title": {
+            "en": "Service"
+          },
+          "tag": {
+            "en": "Lifetime service"
+          },
+          "body": {
+            "en": "We provide complimentary lifetime service for all laptops."
+          }
+        },
+        {
+          "id": "refund",
+          "icon": "RotateCcw",
+          "title": {
+            "en": "Refund"
+          },
+          "tag": {
+            "en": "7–10 working days"
+          },
+          "body": {
+            "en": "Once your return is received and inspected, we will email you to confirm that we have received your returned item. We will also tell you whether your refund is approved or rejected.\n\nIf it is approved, your refund will be processed and a credit will automatically be applied to your credit card or original method of payment.\n\nWe refund within 7 to 10 working days. The process may take longer because of technical issues."
+          }
+        },
+        {
+          "id": "late-refund",
+          "icon": "Clock",
+          "title": {
+            "en": "Late or missing refund"
+          },
+          "tag": {
+            "en": "4 quick checks"
+          },
+          "body": {
+            "en": "1. First, check your bank account again.\n1. Then contact your credit card company — it may take some time before your refund is officially posted.\n1. Next, contact your bank. There is often some processing time before a refund is posted.\n1. If you have done all of this and still have not received your refund, contact us at {email}."
+          }
+        },
+        {
+          "id": "replacement",
+          "icon": "Package",
+          "title": {
+            "en": "Replacement"
+          },
+          "tag": {
+            "en": "At delivery only"
+          },
+          "body": {
+            "en": "We only replace items that are defective or damaged at the time of delivery. Check the product properly in front of the delivery person — once they leave, the product is no longer eligible for return."
+          }
+        },
+        {
+          "id": "gifts",
+          "icon": "Gift",
+          "title": {
+            "en": "Gifts"
+          },
+          "tag": {
+            "en": "Gift credit"
+          },
+          "body": {
+            "en": "If the item was marked as a gift when purchased and shipped directly to you, you will receive a gift credit for the value of your return. Once the returned item is received, a gift certificate will be mailed to you.\n\nIf the item was not marked as a gift when purchased, or the gift giver had the order shipped to themselves to give to you later, we will send the refund to the gift giver and they will find out about your return."
+          }
+        },
+        {
+          "id": "shipping-returns",
+          "icon": "Truck",
+          "title": {
+            "en": "Shipping returns"
+          },
+          "tag": {
+            "en": "Faulty or wrong items"
+          },
+          "body": {
+            "en": "Only torn, faulty or wrong products are refundable. Other products cannot be returned."
+          }
+        },
+        {
+          "id": "help",
+          "icon": "CircleHelp",
+          "title": {
+            "en": "Need help?"
+          },
+          "tag": {
+            "en": "We are here"
+          },
+          "body": {
+            "en": "Contact us at {email} for questions about refunds and returns, or call {hotline}."
+          }
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "eyebrow": "Meet the founders",
+      "heading": "The people behind Lappy Valley",
+      "intro": "Brand new and used laptops imported from **USA, Dubai & Japan**, in different models at a very competitive market price.",
+      "brands": [
+        "MacBook",
+        "HP",
+        "ASUS",
+        "Dell",
+        "Lenovo",
+        "MSI",
+        "Acer",
+        "Microsoft Surface",
+        "Toshiba",
+        "Razer Blade",
+        "Samsung"
+      ],
+      "founders": [
+        {
+          "id": "mohammad-a-rahman",
+          "name": "Mohammad A Rahman",
+          "role": "Entrepreneur",
+          "image": "/images/founders/mohammad-a-rahman.png"
+        },
+        {
+          "id": "kazi-mazharul-haque",
+          "name": "Kazi Mazharul Haque",
+          "role": "Entrepreneur",
+          "image": "/images/founders/kazi-mazharul-haque.png"
+        },
+        {
+          "id": "akm-mostafizur-rahman",
+          "name": "A.K.M. Mostafizur Rahman",
+          "role": "Entrepreneur",
+          "image": "/images/founders/akm-mostafizur-rahman.png"
+        }
+      ]
+    },
+    {
+      "id": "hero",
+      "autoplayMs": 5000,
+      "slides": [
+        {
+          "id": "msi-stealth-gs66",
+          "image": "/images/banners/msi-stealth-gs66-1536.webp",
+          "imageSmall": "/images/banners/msi-stealth-gs66-768.webp",
+          "alt": "New arrival gaming laptop: MSI Stealth GS66 Core i7-12700H, 32-512 GB SSD, RTX 3070Ti 8 GB GPU",
+          "brand": ""
+        },
+        {
+          "id": "asus-rog-strix-g16-2025",
+          "image": "/images/banners/asus-rog-strix-g16-2025-1536.webp",
+          "imageSmall": "/images/banners/asus-rog-strix-g16-2025-768.webp",
+          "alt": "Asus ROG Strix G16 (2025) Ryzen 9-8940HX gaming laptop",
+          "brand": "Asus"
+        },
+        {
+          "id": "asus-rog-zephyrus-g16-rtx-4090",
+          "image": "/images/banners/asus-rog-zephyrus-g16-rtx-4090-1536.webp",
+          "imageSmall": "/images/banners/asus-rog-zephyrus-g16-rtx-4090-768.webp",
+          "alt": "Asus ROG Zephyrus G16 14th Gen Core Ultra 9 185H, 32 GB RAM, 2 TB SSD, RTX 4090 16 GB GPU",
+          "brand": "Asus"
+        },
+        {
+          "id": "asus-rog-zephyrus-g16-14th-gen",
+          "image": "/images/banners/asus-rog-zephyrus-g16-14th-gen-1536.webp",
+          "imageSmall": "/images/banners/asus-rog-zephyrus-g16-14th-gen-768.webp",
+          "alt": "Asus ROG Zephyrus G16 14th Gen gaming laptop",
+          "brand": "Asus"
+        },
+        {
+          "id": "asus-rog-zephyrus-g14",
+          "image": "/images/banners/asus-rog-zephyrus-g14-1536.webp",
+          "imageSmall": "/images/banners/asus-rog-zephyrus-g14-768.webp",
+          "alt": "Asus ROG Zephyrus G14 Ryzen 9-7940HS gaming laptop",
+          "brand": "Asus"
+        }
+      ],
+      "promoMs": 4000,
+      "promos": [
+        {
+          "id": "student-lenovo",
+          "eyebrow": "Student pick",
+          "title": "Lenovo Laptops",
+          "highlight": "For class & work",
+          "cta": "Shop Lenovo",
+          "image": "/images/products/cutouts/lenovo-v15-g4-abp.png",
+          "imageAlt": "Lenovo V15 G4 laptop",
+          "brand": "Lenovo"
+        },
+        {
+          "id": "gaming-asus",
+          "eyebrow": "Gaming",
+          "title": "Asus TUF Gaming",
+          "highlight": "Built for play",
+          "cta": "Shop Asus",
+          "image": "/images/products/cutouts/asus-tuf-gaming-a15.png",
+          "imageAlt": "Asus TUF Gaming A15 laptop",
+          "brand": "Asus"
+        },
+        {
+          "id": "business-dell",
+          "eyebrow": "Business",
+          "title": "Dell Latitude",
+          "highlight": "Built for work",
+          "cta": "Shop Dell",
+          "image": "/images/products/cutouts/dell-latitude-7440.png",
+          "imageAlt": "Dell Latitude 7440 laptop",
+          "brand": "Dell"
+        }
+      ],
+      "updatedAt": "2026-11-09T11:38:36.552Z"
+    },
+    {
+      "id": "faq",
+      "heading": "Questions?",
+      "headingAccent": "We have answers.",
+      "subheading": "Everything about buying, paying for and getting your laptop from Lappy Valley.",
+      "categories": [
+        {
+          "id": "products",
+          "label": "Products"
+        },
+        {
+          "id": "orders",
+          "label": "Orders & Payment"
+        },
+        {
+          "id": "delivery",
+          "label": "Delivery"
+        },
+        {
+          "id": "service",
+          "label": "Warranty & Service"
+        }
+      ],
+      "items": [
+        {
+          "id": "new-or-used",
+          "category": "products",
+          "question": "Do you sell brand new or used laptops?",
+          "answer": "Both. We sell brand new laptops and pre-owned laptops graded AAA+, imported from the USA, Dubai and Japan."
+        },
+        {
+          "id": "brands",
+          "category": "products",
+          "question": "Which brands do you carry?",
+          "answer": "MacBook, HP, ASUS, Dell, Lenovo, MSI, Acer, Microsoft Surface, Toshiba, Razer Blade and Samsung, in many different models."
+        },
+        {
+          "id": "payment-methods",
+          "category": "orders",
+          "question": "Which payment methods do you accept?",
+          "answer": "Cash on delivery, or online payment by Visa, Mastercard, bKash, Nagad, Upay, TakaPay and more. Online payments are verified by SSLCommerz."
+        },
+        {
+          "id": "coupon",
+          "category": "orders",
+          "question": "Can I use a coupon code?",
+          "answer": "Yes. Open your cart, tap “Add a coupon code?”, enter the code and apply it before you confirm the order."
+        },
+        {
+          "id": "track-order",
+          "category": "orders",
+          "question": "How do I track my order?",
+          "answer": "Log in and open My Account → Orders. Each order shows its status (Pending, Processing, Delivered) and payment status."
+        },
+        {
+          "id": "delivery-cost",
+          "category": "delivery",
+          "question": "How much does delivery cost?",
+          "answer": "Store pickup is free. Express delivery costs ৳120 and is delivered through SA P.B."
+        },
+        {
+          "id": "see-before-buying",
+          "category": "delivery",
+          "question": "Can I see the laptop before buying?",
+          "answer": "Yes. Visit any of our three outlets — Uttara (Rajuk Commercial Complex), Jamuna Future Park or Bashundhara City."
+        },
+        {
+          "id": "warranty",
+          "category": "service",
+          "question": "Do your laptops come with a warranty?",
+          "answer": "Warranty depends on the laptop. Check the Warranty section on each product page."
+        },
+        {
+          "id": "after-sales",
+          "category": "service",
+          "question": "What if I have a problem after buying?",
+          "answer": "We provide after-sales service. Bring the laptop to any outlet or call {hotline} and we will solve it."
+        }
+      ]
+    },
+    {
+      "id": "footer",
+      "email": "info@lappyvalley.com",
+      "hotline": "+880 1901-643834",
+      "tradeLicense": "202984",
+      "bin": "0049818790102",
+      "copyright": "© 2026 lappyvalley.com · All Rights Reserved",
+      "outlets": [
+        {
+          "id": "uttara",
+          "label": "Uttara",
+          "tag": "Outlet 01 · Uttara",
+          "address": "Shop # 607 (5th Floor), Rajuk Commercial Complex, Azampur, Uttara, Dhaka-1230",
+          "phones": [
+            "01901-643831",
+            "01901-643834"
+          ],
+          "mapHref": "https://maps.app.goo.gl/r4t4cnWUiCngZsqQ7"
+        },
+        {
+          "id": "jamuna",
+          "label": "Jamuna Future Park",
+          "tag": "Outlet 02 · Jamuna",
+          "address": "Shop # 4D-014B1, East Court, Block # D, Level #04, Jamuna Future Park, Dhaka-1229",
+          "phones": [
+            "01901-643835",
+            "01901-643836"
+          ],
+          "mapHref": "https://maps.app.goo.gl/6c1wD57m1XS2eckX8"
+        },
+        {
+          "id": "bashundhara",
+          "label": "Bashundhara City",
+          "tag": "Outlet 03 · Bashundhara City",
+          "address": "Shop # 33, Level 6, Block D, Bashundhara City Shopping Complex, West Panthapath, Dhaka-1215",
+          "phones": [
+            "01901-643832",
+            "01901-643833"
+          ],
+          "mapHref": ""
+        }
+      ],
+      "social": [
+        {
+          "label": "Facebook",
+          "href": "#"
+        },
+        {
+          "label": "Instagram",
+          "href": "#"
+        },
+        {
+          "label": "YouTube",
+          "href": "#"
+        },
+        {
+          "label": "X",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "seo",
+      "siteName": "Lappy Valley",
+      "defaultTitle": "Laptops, sorted.",
+      "defaultDescription": "Brand new and pre-owned laptops in Bangladesh, imported from the USA, Dubai and Japan.",
+      "shareImage": "",
+      "pages": {
+        "home": {
+          "title": "Laptops, sorted.",
+          "description": "Brand new and pre-owned laptops in Bangladesh, imported from the USA, Dubai and Japan."
+        },
+        "shop": {
+          "title": "Shop",
+          "description": "Browse brand new and pre-owned laptops at Lappy Valley."
+        },
+        "offers": {
+          "title": "Offers",
+          "description": "Laptops with a price cut and coupon codes you can use at checkout at Lappy Valley."
+        },
+        "videos": {
+          "title": "Videos",
+          "description": "Watch Lappy Valley laptop reviews, buying guides and gaming picks before you buy."
+        },
+        "about": {
+          "title": "About Us",
+          "description": "Meet the founders of Lappy Valley, importers of brand new and used laptops from USA, Dubai and Japan."
+        },
+        "terms": {
+          "title": "Terms & Conditions",
+          "description": "Delivery, replacement, return and refund terms for Lappy Valley, in English and Bangla."
+        },
+        "privacy": {
+          "title": "Privacy Policy",
+          "description": "How Lappy Valley collects, uses and protects your personal data."
+        },
+        "refund": {
+          "title": "Refund & Service Policy",
+          "description": "Lifetime service, refund timelines, replacements and returns at Lappy Valley."
+        }
+      }
+    },
+    {
+      "id": "offers",
+      "title": "Offers",
+      "subtitle": "Laptops with a price cut, and coupon codes you can use at checkout.",
+      "couponsHeading": "Coupon codes",
+      "couponsText": "Copy a code, then enter it in your [cart](/cart).",
+      "dealsHeading": "Laptops on offer",
+      "dealsText": "Biggest discounts first."
+    },
+    {
+      "id": "branding",
+      "logo": "https://res.cloudinary.com/dkpwkyimf/image/upload/v1794231143/lappy-valley/products/toepa1staixcbhvglvlz.png",
+      "icon": "https://res.cloudinary.com/dkpwkyimf/image/upload/v1794231147/lappy-valley/products/aoo0vjuv0of3rxcoqiwy.png",
+      "updatedAt": "2026-11-09T13:32:28.179Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": 1,
+      "at": "2026-11-05T18:56:08.800Z",
+      "source": "storefront",
+      "actor": {
+        "id": "customer:3",
+        "name": "Test User",
+        "email": "test@example.com"
+      },
+      "action": "created",
+      "entity": {
+        "type": "order",
+        "id": 7,
+        "label": "#LV-7"
+      },
+      "summary": "Placed order #LV-7 · ৳250,120",
+      "changes": [
+        {
+          "field": "Items",
+          "from": "—",
+          "to": "2 pcs"
+        },
+        {
+          "field": "Total",
+          "from": "—",
+          "to": "৳250,120"
+        },
+        {
+          "field": "Payment",
+          "from": "—",
+          "to": "online"
+        },
+        {
+          "field": "Delivery",
+          "from": "—",
+          "to": "express"
+        }
+      ]
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "settings",
+        "id": "branding",
+        "label": "Logo & branding"
+      },
+      "summary": "Changed the store logo",
+      "changes": [
+        {
+          "field": "Logo",
+          "from": "Default",
+          "to": "Custom image"
+        }
+      ],
+      "at": "2026-11-05T19:24:12.027Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 2
+    },
+    {
+      "id": 3,
+      "at": "2026-11-09T06:22:24.220Z",
+      "source": "storefront",
+      "actor": {
+        "id": "customer:3",
+        "name": "Test User",
+        "email": "test@example.com"
+      },
+      "action": "created",
+      "entity": {
+        "type": "review",
+        "id": 1,
+        "label": "About the products"
+      },
+      "summary": "Reviewed Acer Aspire 7 A715-79G (5-star)",
+      "changes": [
+        {
+          "field": "Rating",
+          "from": "—",
+          "to": "★★★★★ (5/5)"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "at": "2026-11-09T06:26:03.766Z",
+      "source": "storefront",
+      "actor": {
+        "id": "customer:3",
+        "name": "Test User",
+        "email": "test@example.com"
+      },
+      "action": "created",
+      "entity": {
+        "type": "review",
+        "id": 2,
+        "label": "product review"
+      },
+      "summary": "Reviewed Acer Aspire 7 A715-79G (4-star)",
+      "changes": [
+        {
+          "field": "Rating",
+          "from": "—",
+          "to": "★★★★ (4/5)"
+        }
+      ]
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "review",
+        "id": 2,
+        "label": "product review"
+      },
+      "summary": "Showed Test User’s review on the home page",
+      "changes": [
+        {
+          "field": "On home page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T06:48:57.741Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 5
+    },
+    {
+      "id": 6,
+      "at": "2026-11-09T06:56:59.450Z",
+      "source": "storefront",
+      "actor": {
+        "id": "customer:3",
+        "name": "Test User",
+        "email": "test@example.com"
+      },
+      "action": "created",
+      "entity": {
+        "type": "review",
+        "id": 3,
+        "label": "Excellent Laptop with Smooth Performance"
+      },
+      "summary": "Reviewed Lenovo ThinkPad X1 Carbon (5-star)",
+      "changes": [
+        {
+          "field": "Rating",
+          "from": "—",
+          "to": "★★★★★ (5/5)"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "at": "2026-11-09T06:57:25.394Z",
+      "source": "storefront",
+      "actor": {
+        "id": "customer:3",
+        "name": "Test User",
+        "email": "test@example.com"
+      },
+      "action": "created",
+      "entity": {
+        "type": "review",
+        "id": 4,
+        "label": "Great Value for the Price"
+      },
+      "summary": "Reviewed Lenovo V15 G4 ABP (5-star)",
+      "changes": [
+        {
+          "field": "Rating",
+          "from": "—",
+          "to": "★★★★★ (5/5)"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "at": "2026-11-09T06:57:54.513Z",
+      "source": "storefront",
+      "actor": {
+        "id": "customer:3",
+        "name": "Test User",
+        "email": "test@example.com"
+      },
+      "action": "created",
+      "entity": {
+        "type": "review",
+        "id": 5,
+        "label": "Perfect Laptop for Students"
+      },
+      "summary": "Reviewed Lenovo LOQ 15APH8 (4-star)",
+      "changes": [
+        {
+          "field": "Rating",
+          "from": "—",
+          "to": "★★★★ (4/5)"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "at": "2026-11-09T06:58:18.716Z",
+      "source": "storefront",
+      "actor": {
+        "id": "customer:3",
+        "name": "Test User",
+        "email": "test@example.com"
+      },
+      "action": "created",
+      "entity": {
+        "type": "review",
+        "id": 6,
+        "label": "Beautiful Design and Clear Display"
+      },
+      "summary": "Reviewed Lenovo LOQ 15APH8 (5-star)",
+      "changes": [
+        {
+          "field": "Rating",
+          "from": "—",
+          "to": "★★★★★ (5/5)"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "at": "2026-11-09T06:58:46.065Z",
+      "source": "storefront",
+      "actor": {
+        "id": "customer:3",
+        "name": "Test User",
+        "email": "test@example.com"
+      },
+      "action": "created",
+      "entity": {
+        "type": "review",
+        "id": 7,
+        "label": "Good Laptop but Could Be Better"
+      },
+      "summary": "Reviewed Lenovo ThinkPad X13 Yoga (5-star)",
+      "changes": [
+        {
+          "field": "Rating",
+          "from": "—",
+          "to": "★★★★★ (5/5)"
+        }
+      ]
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "review",
+        "id": 7,
+        "label": "Good Laptop but Could Be Better"
+      },
+      "summary": "Showed Test User’s review on the home page",
+      "changes": [
+        {
+          "field": "On home page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T07:00:34.146Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 11
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "review",
+        "id": 6,
+        "label": "Beautiful Design and Clear Display"
+      },
+      "summary": "Showed Test User’s review on the home page",
+      "changes": [
+        {
+          "field": "On home page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T07:00:38.964Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 12
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "review",
+        "id": 5,
+        "label": "Perfect Laptop for Students"
+      },
+      "summary": "Showed Test User’s review on the home page",
+      "changes": [
+        {
+          "field": "On home page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T07:00:43.346Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 13
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "review",
+        "id": 4,
+        "label": "Great Value for the Price"
+      },
+      "summary": "Showed Test User’s review on the home page",
+      "changes": [
+        {
+          "field": "On home page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T07:00:47.783Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 14
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "review",
+        "id": 1,
+        "label": "About the products"
+      },
+      "summary": "Showed Test User’s review on the home page",
+      "changes": [
+        {
+          "field": "On home page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T07:12:32.563Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 15
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "review",
+        "id": 1,
+        "label": "About the products"
+      },
+      "summary": "Removed Test User’s review from the home page",
+      "changes": [
+        {
+          "field": "On home page",
+          "from": "Yes",
+          "to": "No"
+        }
+      ],
+      "at": "2026-11-09T07:12:40.512Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 16
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "review",
+        "id": 3,
+        "label": "Excellent Laptop with Smooth Performance"
+      },
+      "summary": "Showed Test User’s review on the home page",
+      "changes": [
+        {
+          "field": "On home page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T07:12:41.484Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 17
+    },
+    {
+      "action": "status-changed",
+      "entity": {
+        "type": "order",
+        "id": 7,
+        "label": "#LV-7"
+      },
+      "summary": "Marked #LV-7 processing",
+      "changes": [
+        {
+          "field": "Status",
+          "from": "Pending",
+          "to": "Processing"
+        }
+      ],
+      "at": "2026-11-09T09:04:13.897Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 18
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Hid WELCOME500 from the Offers page",
+      "changes": [
+        {
+          "field": "On Offers page",
+          "from": "Yes",
+          "to": "No"
+        }
+      ],
+      "at": "2026-11-09T10:07:16.396Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 19
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Advertised WELCOME500 on the Offers page",
+      "changes": [
+        {
+          "field": "On Offers page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T10:07:17.851Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 20
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Hid WELCOME500 from the Offers page",
+      "changes": [
+        {
+          "field": "On Offers page",
+          "from": "Yes",
+          "to": "No"
+        }
+      ],
+      "at": "2026-11-09T10:11:41.263Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 21
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Advertised WELCOME500 on the Offers page",
+      "changes": [
+        {
+          "field": "On Offers page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T10:11:41.854Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 22
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Hid WELCOME500 from the Offers page",
+      "changes": [
+        {
+          "field": "On Offers page",
+          "from": "Yes",
+          "to": "No"
+        }
+      ],
+      "at": "2026-11-09T10:14:52.819Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 23
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Advertised WELCOME500 on the Offers page",
+      "changes": [
+        {
+          "field": "On Offers page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T10:14:53.490Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 24
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Hid WELCOME500 from the Offers page",
+      "changes": [
+        {
+          "field": "On Offers page",
+          "from": "Yes",
+          "to": "No"
+        }
+      ],
+      "at": "2026-11-09T10:14:54.870Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 25
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Advertised WELCOME500 on the Offers page",
+      "changes": [
+        {
+          "field": "On Offers page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T10:14:55.709Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 26
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 2,
+        "label": "LAPPY5"
+      },
+      "summary": "Hid LAPPY5 from the Offers page",
+      "changes": [
+        {
+          "field": "On Offers page",
+          "from": "Yes",
+          "to": "No"
+        }
+      ],
+      "at": "2026-11-09T10:14:56.890Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 27
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 2,
+        "label": "LAPPY5"
+      },
+      "summary": "Advertised LAPPY5 on the Offers page",
+      "changes": [
+        {
+          "field": "On Offers page",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T10:14:58.637Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 28
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Deactivated promo code WELCOME500",
+      "changes": [
+        {
+          "field": "Active",
+          "from": "Yes",
+          "to": "No"
+        }
+      ],
+      "at": "2026-11-09T10:21:36.234Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 29
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Activated promo code WELCOME500",
+      "changes": [
+        {
+          "field": "Active",
+          "from": "No",
+          "to": "Yes"
+        }
+      ],
+      "at": "2026-11-09T10:21:38.036Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 30
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "coupon",
+        "id": 1,
+        "label": "WELCOME500"
+      },
+      "summary": "Deactivated promo code WELCOME500",
+      "changes": [
+        {
+          "field": "Active",
+          "from": "Yes",
+          "to": "No"
+        }
+      ],
+      "at": "2026-11-09T10:23:25.981Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 31
+    },
+    {
+      "id": 32,
+      "at": "2026-11-09T10:26:22.504Z",
+      "source": "storefront",
+      "actor": {
+        "id": "customer:3",
+        "name": "Test User",
+        "email": "test@example.com"
+      },
+      "action": "created",
+      "entity": {
+        "type": "order",
+        "id": 8,
+        "label": "#LV-8"
+      },
+      "summary": "Placed order #LV-8 · ৳117,620",
+      "changes": [
+        {
+          "field": "Items",
+          "from": "—",
+          "to": "1 pcs"
+        },
+        {
+          "field": "Total",
+          "from": "—",
+          "to": "৳117,620"
+        },
+        {
+          "field": "Payment",
+          "from": "—",
+          "to": "cod"
+        },
+        {
+          "field": "Delivery",
+          "from": "—",
+          "to": "express"
+        }
+      ]
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "content",
+        "id": "hero",
+        "label": "Hero banners"
+      },
+      "summary": "Updated Hero banners (slides, promoMs, promos)",
+      "at": "2026-11-09T11:38:36.605Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev"
+      },
+      "id": 33
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "settings",
+        "id": "branding",
+        "label": "Logo & branding"
+      },
+      "summary": "Changed the store logo",
+      "changes": [
+        {
+          "field": "Icon",
+          "from": "Default",
+          "to": "Custom image"
+        }
+      ],
+      "at": "2026-11-09T13:06:03.256Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev",
+        "avatarUrl": null
+      },
+      "id": 34
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "settings",
+        "id": "branding",
+        "label": "Logo & branding"
+      },
+      "summary": "Changed the store logo",
+      "changes": [
+        {
+          "field": "Icon",
+          "from": "Custom image",
+          "to": "Custom image"
+        }
+      ],
+      "at": "2026-11-09T13:06:32.145Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev",
+        "avatarUrl": null
+      },
+      "id": 35
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "settings",
+        "id": "branding",
+        "label": "Logo & branding"
+      },
+      "summary": "Changed the store logo",
+      "changes": [
+        {
+          "field": "Icon",
+          "from": "Custom image",
+          "to": "Custom image"
+        }
+      ],
+      "at": "2026-11-09T13:07:31.568Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev",
+        "avatarUrl": null
+      },
+      "id": 36
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "settings",
+        "id": "branding",
+        "label": "Logo & branding"
+      },
+      "summary": "Changed the store logo",
+      "changes": [
+        {
+          "field": "Icon",
+          "from": "Custom image",
+          "to": "Custom image"
+        }
+      ],
+      "at": "2026-11-09T13:31:10.391Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev",
+        "avatarUrl": null
+      },
+      "id": 37
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "settings",
+        "id": "branding",
+        "label": "Logo & branding"
+      },
+      "summary": "Changed the store logo",
+      "changes": [
+        {
+          "field": "Logo",
+          "from": "Custom image",
+          "to": "Custom image"
+        }
+      ],
+      "at": "2026-11-09T13:31:58.247Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev",
+        "avatarUrl": null
+      },
+      "id": 38
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "settings",
+        "id": "branding",
+        "label": "Logo & branding"
+      },
+      "summary": "Changed the store logo",
+      "changes": [
+        {
+          "field": "Logo",
+          "from": "Custom image",
+          "to": "Custom image"
+        },
+        {
+          "field": "Icon",
+          "from": "Custom image",
+          "to": "Custom image"
+        }
+      ],
+      "at": "2026-11-09T13:32:28.228Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev",
+        "avatarUrl": null
+      },
+      "id": 39
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "inventory",
+        "id": 4,
+        "label": "ThinkPad X13 Yoga"
+      },
+      "summary": "Stock corrected: ThinkPad X13 Yoga 1 → 5",
+      "changes": [
+        {
+          "field": "Stock",
+          "from": "1",
+          "to": "5"
+        }
+      ],
+      "at": "2026-11-09T13:48:41.524Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev",
+        "avatarUrl": null
+      },
+      "id": 40
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "inventory",
+        "id": 3,
+        "label": "Surface Laptop 4"
+      },
+      "summary": "Stock corrected: Surface Laptop 4 4 → 1",
+      "changes": [
+        {
+          "field": "Stock",
+          "from": "4",
+          "to": "1"
+        }
+      ],
+      "at": "2026-11-09T13:48:58.761Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev",
+        "avatarUrl": null
+      },
+      "id": 41
+    },
+    {
+      "action": "updated",
+      "entity": {
+        "type": "inventory",
+        "id": 3,
+        "label": "Surface Laptop 4"
+      },
+      "summary": "Stock corrected: Surface Laptop 4 1 → 6",
+      "changes": [
+        {
+          "field": "Stock",
+          "from": "1",
+          "to": "6"
+        }
+      ],
+      "at": "2026-11-09T13:49:09.319Z",
+      "actor": {
+        "id": "u_1",
+        "name": "Admin",
+        "email": "admin@lappyvalley.dev",
+        "avatarUrl": null
+      },
+      "id": 42
+    }
+  ],
+  "productReviews": [
+    {
+      "productId": 1,
+      "userId": 3,
+      "name": "Test User",
+      "initials": "TU",
+      "rating": 5,
+      "subject": "About the products",
+      "comment": "The product was extremely good",
+      "createdAt": "2026-11-09T06:22:23.893Z",
+      "id": 1,
+      "featured": false
+    },
+    {
+      "productId": 1,
+      "userId": 3,
+      "name": "Test User",
+      "initials": "TU",
+      "rating": 4,
+      "subject": "product review",
+      "comment": "this review is for testing purpose",
+      "createdAt": "2026-11-09T06:26:03.651Z",
+      "id": 2,
+      "featured": true
+    },
+    {
+      "productId": 2,
+      "userId": 3,
+      "name": "Test User",
+      "initials": "TU",
+      "rating": 5,
+      "subject": "Excellent Laptop with Smooth Performance",
+      "comment": "The laptop works perfectly and delivers excellent performance. It handles multitasking smoothly, boots quickly, and has a great display. The build quality is also impressive. Overall, I'm very satisfied with this purchase.",
+      "createdAt": "2026-11-09T06:56:59.412Z",
+      "id": 3,
+      "featured": true
+    },
+    {
+      "productId": 7,
+      "userId": 3,
+      "name": "Test User",
+      "initials": "TU",
+      "rating": 5,
+      "subject": "Great Value for the Price",
+      "comment": "I'm really happy with this laptop. It offers good performance for its price, has a decent battery life, and looks stylish. Perfect for everyday work, browsing, and entertainment.",
+      "createdAt": "2026-11-09T06:57:25.361Z",
+      "id": 4,
+      "featured": true
+    },
+    {
+      "productId": 12,
+      "userId": 3,
+      "name": "Test User",
+      "initials": "TU",
+      "rating": 4,
+      "subject": "Perfect Laptop for Students",
+      "comment": "This laptop is a great choice for students. It's lightweight, easy to carry, and handles daily tasks like assignments, browsing, and online classes without any issues. Highly recommended.",
+      "createdAt": "2026-11-09T06:57:54.483Z",
+      "id": 5,
+      "featured": true
+    },
+    {
+      "productId": 12,
+      "userId": 3,
+      "name": "Test User",
+      "initials": "TU",
+      "rating": 5,
+      "subject": "Beautiful Design and Clear Display",
+      "comment": "The laptop has a sleek design and a beautiful display. The keyboard is comfortable to use, and everything feels well-built. It's a great option for both work and personal use.",
+      "createdAt": "2026-11-09T06:58:18.645Z",
+      "id": 6,
+      "featured": true
+    },
+    {
+      "productId": 4,
+      "userId": 3,
+      "name": "Test User",
+      "initials": "TU",
+      "rating": 5,
+      "subject": "Good Laptop but Could Be Better",
+      "comment": "The overall experience is good. Performance is acceptable for regular tasks, and the design is nice. However, the battery life could be better. Still, it's a decent laptop for everyday use.",
+      "createdAt": "2026-11-09T06:58:46.006Z",
+      "id": 7,
+      "featured": true
     }
   ]
 }
